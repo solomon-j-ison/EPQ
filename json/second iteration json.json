@@ -1,0 +1,68 @@
+{
+  "grand challenge":[
+    "challenge_id": "Unique identifier of the grand challenge"
+    "title": "The title of the grand challenge"
+  ],
+  "goal": [
+    {
+      "id": "Unique id of the goal",
+      "name": "Name of the goal",
+      "description": "Description of the goal",
+      "metric": [
+        {
+          "id": "Unique id of the metric",
+          "name": "Name of the metric",
+          "description": "Description of the metric"
+        }
+      ]
+    }
+  ],
+  "metric": [
+    {
+      "id": "Unique id of the metric",
+      "name": "Name of the metric",
+      "description": "Description of the metric"
+    }
+  ],
+  "objective": [
+    {
+      "id": "Unique id of the objective",
+      "name": "Name of the objective",
+      "description": "Description of the objective"
+    }
+  ],
+  "technology": [
+    {
+      "id": "Unique id of the technology",
+      "name": "Name of the technology",
+      "description": "Description of the technology",
+      "materials_required": "Materials required for the technology"
+    }
+  ],
+  "research": [
+    {
+      "id": "Unique id of the research",
+      "name": "Name of the research",
+      "description": "Description of the research",
+      "research_area": "The area of research",
+      "institution": "The institution involved in research"
+    }
+  ],
+  "impact": [
+    {
+      "id": "Unique id of the impact",
+      "name": "Name of the impact",
+      "description": "Description of the impact",
+      "human_impact_score": "High, medium or low human impact",
+      "phyiscal_imapct_score": "High medium or low physical impact"
+    }
+  ],
+  "stakeholder": [
+    {
+      "id": "Unique id of the stakeholder",
+      "name": "Name of the stakeholder",
+      "description": "Description of the stakeholder",
+      "role": "The role of the stakeholder in the grand challenge"
+    }
+  ]
+}

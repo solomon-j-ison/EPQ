@@ -1,0 +1,83 @@
+{
+  "challenge_id": "unique_identifier",
+  "title": "Descriptive Title of the Challenge",
+  "description": "Detailed description of the challenge, including background, significance, and objectives.",
+  "domain": "Scientific or Engineering Domain (e.g., Physics, Biotechnology, Environmental Science)",
+  "subdomain": "More specific area within the domain (e.g., Quantum Computing, Genetic Engineering)",
+  "goals": [
+    {
+      "goal_id": "unique_goal_identifier",
+      "goal_description": "Description of the specific goal related to the challenge",
+      "target_date": "YYYY-MM-DD",
+      "metrics": [
+        {
+          "metric_id": "unique_metric_identifier",
+          "metric_description": "Description of the metric to measure progress",
+          "unit": "Unit of measurement (e.g., percentage, count, binary)",
+          "current_value": "Current value of the metric",
+          "target_value": "Desired target value of the metric"
+        }
+      ]
+    }
+  ],
+  "stakeholders": [
+    {
+      "stakeholder_id": "unique_stakeholder_identifier",
+      "name": "Name of the stakeholder",
+      "type": "Type of stakeholder (e.g., Government, Academic, Industry, Non-profit)",
+      "role": "Role of the stakeholder in addressing the challenge",
+      "contact_information": "Contact details for the stakeholder"
+    }
+  ],
+  "funding": [
+    {
+      "funding_id": "unique_funding_identifier",
+      "source": "Source of the funding (e.g., NSF, EU Horizon 2020)",
+      "amount": "Amount of funding provided",
+      "duration": "Duration of the funding (e.g., 2023-2028)",
+      "allocated_to": "Specific goals or tasks funded by this source"
+    }
+  ],
+  "milestones": [
+    {
+      "milestone_id": "unique_milestone_identifier",
+      "milestone_description": "Description of the milestone",
+      "date": "YYYY-MM-DD",
+      "status": "Status of the milestone (e.g., Planned, In Progress, Completed)"
+    }
+  ],
+  "challenges_and_risks": [
+    {
+      "risk_id": "unique_risk_identifier",
+      "risk_description": "Description of the risk or challenge",
+      "impact": "Impact level (e.g., High, Medium, Low)",
+      "mitigation_strategies": "Strategies to mitigate the risk"
+    }
+  ],
+  "related_projects": [
+    {
+      "project_id": "unique_project_identifier",
+      "title": "Title of the related project",
+      "description": "Brief description of the related project",
+      "link": "URL or reference to the related project"
+    }
+  ],
+  "publications_and_resources": [
+    {
+      "publication_id": "unique_publication_identifier",
+      "title": "Title of the publication or resource",
+      "authors": "List of authors",
+      "journal": "Journal or source of publication",
+      "date": "YYYY-MM-DD",
+      "link": "URL or reference to the publication"
+    }
+  ],
+  "collaborations": [
+    {
+      "collaboration_id": "unique_collaboration_identifier",
+      "partners": "List of collaborating entities",
+      "description": "Description of the collaboration",
+      "outcomes": "Expected or achieved outcomes from the collaboration"
+    }
+  ]
+}
