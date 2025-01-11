@@ -142,9 +142,9 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/hasResearchType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasResearchStatus -->
 
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasResearchType">
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasResearchStatus">
         <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:ObjectProperty>
