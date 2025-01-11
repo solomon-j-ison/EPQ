@@ -769,9 +769,9 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/Temperate_Rainforest -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Temperate_Forest -->
 
-    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Temperate_Rainforest">
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Temperate_Forest">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
