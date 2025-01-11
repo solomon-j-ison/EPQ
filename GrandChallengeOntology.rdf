@@ -46,7 +46,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/achievedBy -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/achievedBy">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
+<rdfs:label>achievedBy</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
     </owl:ObjectProperty>
     
@@ -55,7 +56,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/achieves -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/achieves">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
+<rdfs:label>achieves</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
     </owl:ObjectProperty>
     
@@ -64,7 +66,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasBiome -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasBiome">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+<rdfs:label>hasBiome</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:ObjectProperty>
     
@@ -73,7 +76,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasDomain -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasDomain">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasDomain</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:ObjectProperty>
     
@@ -82,7 +86,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasGeographicScope -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasGeographicScope">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+<rdfs:label>hasGeographicScope</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:ObjectProperty>
     
@@ -91,7 +96,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasGoal -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasGoal">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasGoal</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
     </owl:ObjectProperty>
     
@@ -100,7 +106,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasImpact -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasImpact">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasImpact</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
     </owl:ObjectProperty>
     
@@ -109,7 +116,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasImpactType -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasImpactType">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
+<rdfs:label>hasImpactType</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:ObjectProperty>
     
@@ -118,7 +126,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasMetric -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasMetric">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
+<rdfs:label>hasMetric</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Metric"/>
     </owl:ObjectProperty>
     
@@ -127,7 +136,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasObjective -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasObjective">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasObjective</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
     </owl:ObjectProperty>
     
@@ -136,7 +146,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasRegion -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasRegion">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+<rdfs:label>hasRegion</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:ObjectProperty>
     
@@ -145,7 +156,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasResearchStatus -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasResearchStatus">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
+<rdfs:label>hasResearchStatus</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:ObjectProperty>
     
@@ -154,7 +166,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasScope -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasScope">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasScope</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
     </owl:ObjectProperty>
     
@@ -163,7 +176,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasStakeholder -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasStakeholder">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasStakeholder</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Stakeholder"/>
     </owl:ObjectProperty>
     
@@ -172,7 +186,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>hasTechnologyStatus</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:ObjectProperty>
     
@@ -181,7 +196,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/involves -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/involves">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>involves</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
     </owl:ObjectProperty>
     
@@ -190,7 +206,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>requiresNewTechnology</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
@@ -199,7 +216,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/requiresResearch -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresResearch">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
+<rdfs:label>requiresResearch</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
     </owl:ObjectProperty>
     
@@ -208,7 +226,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/requiresTechnology -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresTechnology">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
+<rdfs:label>requiresTechnology</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
@@ -217,7 +236,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+<rdfs:label>usesExistingTechnology</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
@@ -237,7 +257,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/description -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/description">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>description</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -246,7 +267,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/id -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/id">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>id</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -255,7 +277,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/institution -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/institution">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
+<rdfs:label>institution</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -264,7 +287,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/materialsRequired -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/materialsRequired">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
+<rdfs:label>materialsRequired</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -273,7 +297,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/name -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/name">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>name</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -282,7 +307,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/researchArea -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/researchArea">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
+<rdfs:label>researchArea</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -291,7 +317,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/role -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/role">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Stakeholder"/>
+<rdfs:label>role</rdfs:label>
+      <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Stakeholder"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -311,7 +338,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Biome -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Biome">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Biome</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The biome(s) effected, e.g. Tundra, Topical Rainforest.</definition>
     </owl:Class>
     
@@ -320,6 +348,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Concept -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Concept">
+<rdfs:label>Concept</rdfs:label>      
         <definition>The top level entity in the reference model.</definition>
     </owl:Class>
     
@@ -328,7 +357,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Domain -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Domain">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Domain</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The domain a grand challenge lies in, e.g. Energy, Health.</definition>
     </owl:Class>
     
@@ -337,7 +367,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/GeographicScope -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GeographicScope">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>GeographicScope</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The geographic scope of a grand challenge, national, international or global.</definition>
     </owl:Class>
     
@@ -346,7 +377,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Goal -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Goal">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Goal</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The set end result or desired outcome of the grand challenge.</definition>
     </owl:Class>
     
@@ -355,7 +387,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/GrandChallenge -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GrandChallenge">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>GrandChallenge</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>Difficult and important problems set by various institutions or professions to encourage solutions, innovation or advocate for funding to achieve a long term goal or outcome that has a positive impact on a large area/population.</definition>
     </owl:Class>
     
@@ -364,7 +397,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Impact -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Impact">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Impact</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The effect or influence of a grand challenge.</definition>
     </owl:Class>
     
@@ -373,7 +407,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/ImpactType -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ImpactType">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>ImpactType</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The type of impact, either or human impact or physical impact.</definition>
     </owl:Class>
     
@@ -382,7 +417,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Metric -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Metric">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Metric</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>Measures of success in reaching the goal of the grand challenge.</definition>
     </owl:Class>
     
@@ -391,7 +427,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Objective -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Objective">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Objective</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>Specific, measurable actions that contribute to an overall goal.</definition>
     </owl:Class>
     
@@ -400,7 +437,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Region -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Region">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Region</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The region(s) impacted by a grand challenge, e.g. Asia, Indian Ocean</definition>
     </owl:Class>
     
@@ -409,7 +447,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Research -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Research">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Research</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.</definition>
     </owl:Class>
     
@@ -418,7 +457,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/ResearchStatus -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ResearchStatus">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>ResearchStatus</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The type of research, either basic or applied</definition>
     </owl:Class>
     
@@ -427,7 +467,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Scope -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Scope">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Scope</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The extent of the area that something deals with or to which it is relevant.</definition>
     </owl:Class>
     
@@ -436,7 +477,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Stakeholder -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Stakeholder">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Stakeholder</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>An organisation, group of people or individual involved in the research or creation of a solution to a grand challenge.</definition>
     </owl:Class>
     
@@ -445,7 +487,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Technology -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Technology">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>Technology</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The application of scientific and technical knowledge, equipment, techniques, and processes to develop or improve solutions to problems and achieve specific goals.</definition>
     </owl:Class>
     
@@ -454,7 +497,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/TechnologyStatus -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
+<rdfs:label>TechnologyStatus</rdfs:label>
+      <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <definition>The status of the technology, either new or existing</definition>
     </owl:Class>
     
@@ -474,7 +518,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Africa -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Africa">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Africa</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -482,7 +527,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Antarctica -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Antarctica">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Antarctica</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -490,7 +536,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Applied -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Applied">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
+<rdfs:label>Applied</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:NamedIndividual>
     
 
@@ -498,7 +545,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Arctic_Ocean -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Arctic_Ocean">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Arctic Ocean</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -506,7 +554,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Asia -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Asia">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Asia</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -514,7 +563,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Atlantic_Ocean -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Atlantic_Ocean">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Atlantic Ocean</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -522,7 +572,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Australia -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Australia">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Australia</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -530,7 +581,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Basic -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Basic">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
+<rdfs:label>Basic</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:NamedIndividual>
     
 
@@ -538,7 +590,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Biotechnology_and_Genetics -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Biotechnology_and_Genetics">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Biotechnology and Genetics</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -546,7 +599,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Computing_and_Artifical_Intelligence -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Computing_and_Artifical_Intelligence">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Computing and Artifical Intelligence</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -554,7 +608,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Desert -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Desert">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Desert</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -562,7 +617,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Economics_and_Society -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Economics_and_Society">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Economics and Society</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -570,7 +626,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Education_and_Human_Development -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Education_and_Human_Development">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Education and Human Development</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -578,7 +635,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Energy -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Energy">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Energy</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -586,7 +644,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Environment -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Environment">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Environment</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -594,7 +653,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Existing -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Existing">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
+<rdfs:label>Existing</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:NamedIndividual>
     
 
@@ -602,7 +662,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Freshwater -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Freshwater">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Freshwater</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -610,7 +671,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Global -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Global">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+<rdfs:label>Global</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
@@ -618,7 +680,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Grassland -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Grassland">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Grassland</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -626,7 +689,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Health -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Health">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Health</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -634,7 +698,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Human_Impact -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Human_Impact">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
+<rdfs:label>Human Impact</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:NamedIndividual>
     
 
@@ -642,7 +707,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Indian_Ocean -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Indian_Ocean">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Indian Ocean</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -650,7 +716,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Infrastructure and Urban Development</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -658,7 +725,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/International -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/International">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+<rdfs:label>International</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
@@ -666,7 +734,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Marine -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Marine">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Marine</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -674,7 +743,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Materials_Science -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Materials_Science">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Materials Science</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -682,7 +752,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/National -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/National">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+<rdfs:label>National</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
@@ -690,7 +761,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/New -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/New">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
+<rdfs:label>New</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:NamedIndividual>
     
 
@@ -698,7 +770,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/North_America -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/North_America">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>North America</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -706,7 +779,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Pacific_Ocean -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Pacific_Ocean">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Pacific Ocean</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -714,7 +788,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Physical_Impact -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Physical_Impact">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
+<rdfs:label>Physical Impact</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:NamedIndividual>
     
 
@@ -722,7 +797,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Savanna -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Savanna">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Savanna</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -730,7 +806,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/South_America -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/South_America">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>South America</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -738,7 +815,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Southern_Ocean -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Southern_Ocean">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+<rdfs:label>Southern Ocean</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
@@ -746,7 +824,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Space -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Space">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+<rdfs:label>Space</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
@@ -754,7 +833,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Temperate_Forest -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Temperate_Forest">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Temperate Forest</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -762,7 +842,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Tiaga -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tiaga">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Tiaga</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -770,7 +851,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Tropical_Rainforest -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tropical_Rainforest">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Tropical Rainforest</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
@@ -778,7 +860,8 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Tundra -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tundra">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+<rdfs:label>Tundra</rdfs:label>
+      <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
