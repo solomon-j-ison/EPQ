@@ -79,6 +79,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasGeographicScope -->
+
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasGeographicScope">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/hasGoal -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasGoal">
@@ -160,20 +169,11 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnologyType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus -->
 
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnologyType">
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus">
         <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://sites.google.com/view/grandchallengesinstem/hasgeographicScope -->
-
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasgeographicScope">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:ObjectProperty>
     
 
@@ -330,7 +330,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Biome">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The biome(s) effected, e.g. Tundra, Topical Rainforest.</untitled-ontology-12:definition>
+        <definition>The biome(s) effected, e.g. Tundra, Topical Rainforest.</definition>
     </owl:Class>
     
 
@@ -338,7 +338,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Concept -->
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Concept">
-        <untitled-ontology-12:definition>The top level entity in the reference model.</untitled-ontology-12:definition>
+        <definition>The top level entity in the reference model.</definition>
     </owl:Class>
     
 
@@ -347,7 +347,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Domain">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The domain a grand challenge lies in, e.g. Energy, Health.</untitled-ontology-12:definition>
+        <definition>The domain a grand challenge lies in, e.g. Energy, Health.</definition>
     </owl:Class>
     
 
@@ -356,7 +356,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GeographicScope">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The geographic scope of a grand challenge, national, international or global.</untitled-ontology-12:definition>
+        <definition>The geographic scope of a grand challenge, national, international or global.</definition>
     </owl:Class>
     
 
@@ -365,7 +365,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Goal">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The set end result or desired outcome of the grand challenge.</untitled-ontology-12:definition>
+        <definition>The set end result or desired outcome of the grand challenge.</definition>
     </owl:Class>
     
 
@@ -374,7 +374,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GrandChallenge">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>Difficult and important problems set by various institutions or professions to encourage solutions, innovation or advocate for funding to achieve a long term goal or outcome that has a positive impact on a large area/population.</untitled-ontology-12:definition>
+        <definition>Difficult and important problems set by various institutions or professions to encourage solutions, innovation or advocate for funding to achieve a long term goal or outcome that has a positive impact on a large area/population.</definition>
     </owl:Class>
     
 
@@ -383,7 +383,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Impact">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The effect or influence of a grand challenge.</untitled-ontology-12:definition>
+        <definition>The effect or influence of a grand challenge.</definition>
     </owl:Class>
     
 
@@ -392,7 +392,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ImpactType">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The type of impact, either or human impact or physical impact.</untitled-ontology-12:definition>
+        <definition>The type of impact, either or human impact or physical impact.</definition>
     </owl:Class>
     
 
@@ -401,7 +401,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Metric">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>Measures of success in reaching the goal of the grand challenge.</untitled-ontology-12:definition>
+        <definition>Measures of success in reaching the goal of the grand challenge.</definition>
     </owl:Class>
     
 
@@ -410,7 +410,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Objective">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>Specific, measurable actions that contribute to an overall goal.</untitled-ontology-12:definition>
+        <definition>Specific, measurable actions that contribute to an overall goal.</definition>
     </owl:Class>
     
 
@@ -419,7 +419,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Region">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The region(s) impacted by a grand challenge, e.g. Asia, Indian Ocean</untitled-ontology-12:definition>
+        <definition>The region(s) impacted by a grand challenge, e.g. Asia, Indian Ocean</definition>
     </owl:Class>
     
 
@@ -428,7 +428,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Research">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.</untitled-ontology-12:definition>
+        <definition>The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.</definition>
     </owl:Class>
     
 
@@ -437,7 +437,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ResearchStatus">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The type of research, either basic or applied</untitled-ontology-12:definition>
+        <definition>The type of research, either basic or applied</definition>
     </owl:Class>
     
 
@@ -446,7 +446,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Scope">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The extent of the area that something deals with or to which it is relevant.</untitled-ontology-12:definition>
+        <definition>The extent of the area that something deals with or to which it is relevant.</definition>
     </owl:Class>
     
 
@@ -455,7 +455,7 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Stakeholder">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>An organisation, group of people or individual involved in the research or creation of a solution to a grand challenge.</untitled-ontology-12:definition>
+        <definition>An organisation, group of people or individual involved in the research or creation of a solution to a grand challenge.</definition>
     </owl:Class>
     
 
@@ -464,16 +464,16 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Technology">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The application of scientific and technical knowledge, equipment, techniques, and processes to develop or improve solutions to problems and achieve specific goals.</untitled-ontology-12:definition>
+        <definition>The application of scientific and technical knowledge, equipment, techniques, and processes to develop or improve solutions to problems and achieve specific goals.</definition>
     </owl:Class>
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/TechnologyType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/TechnologyStatus -->
 
-    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/TechnologyType">
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <untitled-ontology-12:definition>The status of the technology, either new or existing</untitled-ontology-12:definition>
+        <definition>The status of the technology, either new or existing</definition>
     </owl:Class>
     
 
@@ -612,7 +612,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Existing -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Existing">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:NamedIndividual>
     
 
@@ -708,7 +708,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/New -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/New">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyStatus"/>
     </owl:NamedIndividual>
     
 
@@ -802,5 +802,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
