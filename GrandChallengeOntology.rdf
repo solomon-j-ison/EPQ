@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12/"
-     xml:base="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12/"
+<rdf:RDF xmlns="https://sites.google.com/view/grandchallengesinstem/"
+     xml:base="https://sites.google.com/view/grandchallengesinstem/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:untitled-ontology-12="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12"/>
+     xmlns:untitled-ontology-12="https://sites.google.com/view/grandchallengesinstem/">
+    <owl:Ontology rdf:about="https://sites.google.com/view/grandchallengesinstem/">
+        <owl:versionIRI rdf:resource="https://sites.google.com/view/grandchallengesinstem//1.0.0"/>
+    </owl:Ontology>
     
 
 
@@ -22,9 +24,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#definition -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/definition -->
 
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#definition">
+    <owl:AnnotationProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/definition">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
     </owl:AnnotationProperty>
     
@@ -41,182 +43,182 @@
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#achievedBy -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/achievedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#achievedBy">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/achievedBy">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#achieves -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/achieves -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#achieves">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/achieves">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasBiome -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasBiome -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasBiome">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasBiome">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasDomain -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasDomain -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasDomain">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasDomain">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasGoal -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasGoal -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasGoal">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasGoal">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasImpact -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasImpact -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasImpact">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasImpact">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasImpactType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasImpactType -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasImpactType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ImpactType"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasImpactType">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasMetric -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasMetric -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasMetric">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Metric"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasMetric">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Metric"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasObjective -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasObjective -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasObjective">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasObjective">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasRegion -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasRegion -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasRegion">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasRegion">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasResearchType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasResearchType -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasResearchType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ResearchStatus"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasResearchType">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasScope -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasScope -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasScope">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasScope">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasStakeholder -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasStakeholder -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasStakeholder">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Stakeholder"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasStakeholder">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Stakeholder"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasTechnologyType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnologyType -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasTechnologyType">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#TechnologyType"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnologyType">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasgeographicScope -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasgeographicScope -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#hasgeographicScope">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasgeographicScope">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Scope"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#involves -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/involves -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#involves">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/involves">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresNewTechnology -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresNewTechnology">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresResearch -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/requiresResearch -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresResearch">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresResearch">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresTechnology -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/requiresTechnology -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#requiresTechnology">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresTechnology">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Objective"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#usesExistingTechnology -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#usesExistingTechnology">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology"/>
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
     </owl:ObjectProperty>
     
 
@@ -232,100 +234,82 @@
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#challengeId -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/description -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#challengeId">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/description">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#description -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/humanImpactScore -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#description">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/humanImpactScore">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#humanImpactScore -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/id -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#humanImpactScore">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/id">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#id -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/institution -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#id">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/institution">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#institution -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/materialsRequired -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#institution">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/materialsRequired">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#materialsRequired -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#materialsRequired">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/name">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#name -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/physicalImpactScore -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#name">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/physicalImpactScore">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#physicalImpactScore -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/researchArea -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#physicalImpactScore">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/researchArea">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#researchArea -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/role -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#researchArea">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#role -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#role">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Stakeholder"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#title -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#title">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge"/>
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/role">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Stakeholder"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
@@ -342,153 +326,153 @@
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Biome -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Biome">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The biome(s) effected, e.g. Tundra, Topical Rainforest.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Concept -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept">
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Concept">
         <untitled-ontology-12:definition>The top level entity in the reference model.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Domain -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Domain">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The domain a grand challenge lies in, e.g. Energy, Health.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/GeographicScope -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GeographicScope">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The geographic scope of a grand challenge, national, international or global.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Goal -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Goal">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Goal">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The set end result or desired outcome of the grand challenge.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/GrandChallenge -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GrandChallenge">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/GrandChallenge">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>Difficult and important problems set by various institutions or professions to encourage solutions, innovation or advocate for funding to achieve a long term goal or outcome that has a positive impact on a large area/population.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Impact -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Impact">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The effect or influence of a grand challenge.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ImpactType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/ImpactType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ImpactType">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ImpactType">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The type of impact, either or human impact or physical impact.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Metric -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Metric -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Metric">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Metric">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>Measures of success in reaching the goal of the grand challenge.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Objective -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Objective">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Objective">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>Specific, measurable actions that contribute to an overall goal.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Region -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Region">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The region(s) impacted by a grand challenge, e.g. Asia, Indian Ocean</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Research -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Research">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Research">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ResearchStatus -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/ResearchStatus -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ResearchStatus">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/ResearchStatus">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The type of research, either basic or applied</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Scope -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Scope">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Scope">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The extent of the area that something deals with or to which it is relevant.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Stakeholder -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Stakeholder -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Stakeholder">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Stakeholder">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>An organisation, group of people or individual involved in the research or creation of a solution to a grand challenge.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Technology -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Technology">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Technology">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The application of scientific and technical knowledge, equipment, techniques, and processes to develop or improve solutions to problems and achieve specific goals.</untitled-ontology-12:definition>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#TechnologyType -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/TechnologyType -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#TechnologyType">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Concept"/>
+    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/TechnologyType">
+        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <untitled-ontology-12:definition>The status of the technology, either new or existing</untitled-ontology-12:definition>
     </owl:Class>
     
@@ -505,318 +489,318 @@
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Africa -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Africa -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Africa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Africa">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Antarctica -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Antarctica -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Antarctica">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Antarctica">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Applied -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Applied -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Applied">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ResearchStatus"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Applied">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Arctic_Ocean -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Arctic_Ocean -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Arctic_Ocean">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Arctic_Ocean">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Asia -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Asia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Asia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Asia">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Atlantic_Ocean -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Atlantic_Ocean -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Atlantic_Ocean">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Atlantic_Ocean">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Australia -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Australia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Australia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Australia">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Basic -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Basic -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Basic">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ResearchStatus"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Basic">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ResearchStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biotechnology_and_Genetics -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Biotechnology_and_Genetics -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biotechnology_and_Genetics">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Biotechnology_and_Genetics">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Computing_and_Artifical_Intelligence -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Computing_and_Artifical_Intelligence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Computing_and_Artifical_Intelligence">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Computing_and_Artifical_Intelligence">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Desert -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Desert -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Desert">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Desert">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Economics_and_Society -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Economics_and_Society -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Economics_and_Society">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Economics_and_Society">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Education_and_Human_Development -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Education_and_Human_Development -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Education_and_Human_Development">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Education_and_Human_Development">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Energy -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Energy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Energy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Energy">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Environment -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Environment -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Environment">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Environment">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Existing -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Existing -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Existing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#TechnologyType"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Existing">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Freshwater -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Freshwater -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Freshwater">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Freshwater">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Global -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Global -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Global">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Global">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Grassland -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Grassland -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Grassland">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Grassland">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Health -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Health -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Health">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Health">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Human_Impact -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Human_Impact -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Human_Impact">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ImpactType"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Human_Impact">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Indian_Ocean -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Indian_Ocean -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Indian_Ocean">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Indian_Ocean">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Infrastructure_and_Urban_Development -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Infrastructure_and_Urban_Development">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#International -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/International -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#International">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/International">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Marine -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Marine -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Marine">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Marine">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Materials_Science -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Materials_Science -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Materials_Science">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Materials_Science">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#National -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/National -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#National">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#GeographicScope"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/National">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#New -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/New -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#New">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#TechnologyType"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/New">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/TechnologyType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#North_America -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/North_America -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#North_America">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/North_America">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Pacific_Ocean -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Pacific_Ocean -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Pacific_Ocean">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Pacific_Ocean">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Physical_Impact -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Physical_Impact -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Physical_Impact">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#ImpactType"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Physical_Impact">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/ImpactType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Savanna -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Savanna -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Savanna">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Savanna">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#South_America -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/South_America -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#South_America">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/South_America">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Southern_Ocean -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Southern_Ocean -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Southern_Ocean">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Region"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Southern_Ocean">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Space -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Space -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Space">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Domain"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Space">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Temperate_Rainforest -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Temperate_Rainforest -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Temperate_Rainforest">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Temperate_Rainforest">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tiaga -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Tiaga -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tiaga">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tiaga">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tropical_Rainforest -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Tropical_Rainforest -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tropical_Rainforest">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tropical_Rainforest">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tundra -->
+    <!-- https://sites.google.com/view/grandchallengesinstem/Tundra -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Tundra">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ukgc/ontologies/2024/7/untitled-ontology-12#Biome"/>
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tundra">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
