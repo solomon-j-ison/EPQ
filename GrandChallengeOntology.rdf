@@ -243,15 +243,6 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/humanImpactScore -->
-
-    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/humanImpactScore">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://sites.google.com/view/grandchallengesinstem/id -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/id">
@@ -283,15 +274,6 @@
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/name">
         <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://sites.google.com/view/grandchallengesinstem/physicalImpactScore -->
-
-    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/physicalImpactScore">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Impact"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
     </owl:DatatypeProperty>
     
