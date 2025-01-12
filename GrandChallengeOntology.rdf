@@ -103,16 +103,6 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/hasMetric -->
-
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasMetric">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Metric"/>
-        <rdfs:label>hasMetric</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://sites.google.com/view/grandchallengesinstem/hasRegion -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasRegion">
@@ -254,6 +244,16 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/metric -->
+
+    <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/metric">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Goal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#token"/>
+        <rdfs:label>metric</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/name -->
 
     <owl:DatatypeProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/name">
@@ -370,16 +370,6 @@
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
         <rdfs:label>ImpactType</rdfs:label>
         <definition>The type of impact, either or human impact or physical impact.</definition>
-    </owl:Class>
-    
-
-
-    <!-- https://sites.google.com/view/grandchallengesinstem/Metric -->
-
-    <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Metric">
-        <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <rdfs:label>Metric</rdfs:label>
-        <definition>Measures of success in reaching the goal of the grand challenge.</definition>
     </owl:Class>
     
 
