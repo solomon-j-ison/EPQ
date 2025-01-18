@@ -1,0 +1,3323 @@
+{
+    "GrandChallenge": [
+        {
+            "id": "gc001",
+            "name": "Develop sustainable fusion energy",
+            "description": "Achieve practical and economical nuclear fusion as a clean energy source.",
+            "domain": "Energy",
+            "Goal": {
+                "id": "goal001",
+                "name": "Sustainable Fusion Power",
+                "description": "Develop a fusion reactor capable of net-positive energy output for commercial use.",
+                "metric": "Net energy output exceeding input"
+            },
+            "Technologies": [
+                {
+                    "id": "tech001",
+                    "name": "Tokamak Reactors",
+                    "description": "A doughnut-shaped device using magnetic fields to confine plasma for fusion reactions.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "High-strength magnets",
+                        "Plasma-compatible materials"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res001",
+                            "name": "High-Temperature Superconductors",
+                            "description": "Develop advanced superconductors for stronger magnetic fields at higher temperatures.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Materials Science",
+                                "Energy Systems"
+                            ],
+                            "institution": [
+                                "ITER Project",
+                                "MIT Plasma Science and Fusion Center"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact001",
+                    "name": "Carbon Emissions Reduction",
+                    "description": "Reduction in greenhouse gases by replacing fossil fuels with fusion energy.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope001",
+                "name": "Global Impact",
+                "description": "Wide-scale energy production to meet global demands.",
+                "biome": [
+                    "Marine"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake001",
+                    "name": "Energy Companies",
+                    "description": "Invest and adopt fusion technology for commercial energy production.",
+                    "role": [
+                        "Investor",
+                        "Adopter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc002",
+            "name": "Enhance energy storage",
+            "description": "Create efficient, long-duration energy storage systems to support renewable energy.",
+            "domain": "Energy",
+            "Goal": {
+                "id": "goal002",
+                "name": "Long-Duration Energy Storage",
+                "description": "Develop energy storage solutions with a capacity exceeding 10 hours for grid use.",
+                "metric": "Energy storage duration (hours)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech002",
+                    "name": "Solid-State Batteries",
+                    "description": "Advanced batteries using solid electrolytes for higher capacity and safety.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Lithium",
+                        "Solid-state electrolytes"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res002",
+                            "name": "Solid Electrolyte Optimization",
+                            "description": "Improve ionic conductivity and stability in solid-state materials.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Materials Science",
+                                "Battery Technology"
+                            ],
+                            "institution": [
+                                "Argonne National Laboratory",
+                                "Stanford University"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact002",
+                    "name": "Renewable Energy Integration",
+                    "description": "Facilitate the use of renewable energy by providing consistent power supply.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope002",
+                "name": "Global Energy Storage",
+                "description": "Address energy storage needs across various regions and climates.",
+                "biome": [
+                    "Temperate Forest",
+                    "Desert"
+                ],
+                "region": [
+                    "North America",
+                    "Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake002",
+                    "name": "Battery Manufacturers",
+                    "description": "Develop and produce advanced energy storage technologies.",
+                    "role": [
+                        "Developer",
+                        "Supplier"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc003",
+            "name": "Improve solar energy conversion",
+            "description": "Increase the efficiency and affordability of photovoltaic cells.",
+            "domain": "Energy",
+            "Goal": {
+                "id": "goal003",
+                "name": "High-Efficiency Solar Cells",
+                "description": "Achieve a solar cell efficiency greater than 40% at a competitive cost.",
+                "metric": "Conversion efficiency (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech003",
+                    "name": "Perovskite Solar Cells",
+                    "description": "Emerging solar technology offering high efficiency and low manufacturing costs.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Perovskite materials",
+                        "Conductive films"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res003",
+                            "name": "Stability Enhancement",
+                            "description": "Improve the stability and longevity of perovskite-based solar cells.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Energy Systems",
+                                "Materials Science"
+                            ],
+                            "institution": [
+                                "University of Oxford",
+                                "MIT"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact003",
+                    "name": "Accessible Renewable Energy",
+                    "description": "Increase accessibility to affordable solar power globally.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope003",
+                "name": "Solar Energy Deployment",
+                "description": "Enable solar energy use in both urban and rural settings.",
+                "biome": [
+                    "Desert",
+                    "Savanna"
+                ],
+                "region": [
+                    "Africa",
+                    "Australia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake003",
+                    "name": "Solar Energy Companies",
+                    "description": "Produce and deploy solar panels for energy production.",
+                    "role": [
+                        "Manufacturer",
+                        "Installer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc004",
+            "name": "Develop carbon capture and storage (CCS)",
+            "description": "Implement scalable CCS technologies to reduce greenhouse gas emissions.",
+            "domain": "Energy",
+            "Goal": {
+                "id": "goal004",
+                "name": "Scalable Carbon Capture",
+                "description": "Develop CCS technologies that can capture millions of tons of CO2 annually.",
+                "metric": "Captured CO2 (tons per year)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech004",
+                    "name": "Direct Air Capture",
+                    "description": "Remove CO2 directly from the atmosphere for storage or utilization.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Absorbents",
+                        "Catalysts"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res004",
+                            "name": "Absorbent Efficiency",
+                            "description": "Enhance the capacity and regeneration of CO2 absorbent materials.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Chemical Engineering",
+                                "Climate Science"
+                            ],
+                            "institution": [
+                                "Carbon Engineering",
+                                "Climeworks"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact004",
+                    "name": "Climate Change Mitigation",
+                    "description": "Reduce atmospheric CO2 levels to mitigate global warming.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope004",
+                "name": "Carbon Management",
+                "description": "Apply CCS technologies in industrial and energy sectors globally.",
+                "biome": [
+                    "Temperate Forest",
+                    "Marine"
+                ],
+                "region": [
+                    "Europe",
+                    "North America"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake004",
+                    "name": "Environmental Agencies",
+                    "description": "Support policies and funding for CCS deployment.",
+                    "role": [
+                        "Regulator",
+                        "Advocate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc005",
+            "name": "Create a smart grid",
+            "description": "Modernize the electricity grid for better efficiency and reliability.",
+            "domain": "Energy",
+            "Goal": {
+                "id": "goal005",
+                "name": "Efficient Smart Grid",
+                "description": "Implement a grid system capable of real-time data exchange and energy optimization.",
+                "metric": "Energy efficiency improvement (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech005",
+                    "name": "Advanced Grid Sensors",
+                    "description": "Deploy sensors for real-time monitoring and control of grid systems.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Sensors",
+                        "Data processors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res005",
+                            "name": "Grid Data Analytics",
+                            "description": "Develop machine learning models for predictive maintenance and demand management.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Artificial Intelligence",
+                                "Energy Systems"
+                            ],
+                            "institution": [
+                                "National Grid",
+                                "Siemens"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact005",
+                    "name": "Reliable Power Supply",
+                    "description": "Reduce power outages and optimize energy distribution.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope005",
+                "name": "Modern Energy Infrastructure",
+                "description": "Enhance grid infrastructure in urban and rural areas.",
+                "biome": [
+                    "Temperate Forest",
+                    "Grassland"
+                ],
+                "region": [
+                    "Asia",
+                    "South America"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake005",
+                    "name": "Utility Providers",
+                    "description": "Operate and maintain smart grid infrastructure.",
+                    "role": [
+                        "Operator",
+                        "Maintainer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc006",
+            "name": "Address climate change",
+            "description": "Develop strategies to mitigate and adapt to climate change impacts.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal006",
+                "name": "Climate Resilience",
+                "description": "Develop global strategies to limit global warming to 1.5\u00b0C above pre-industrial levels.",
+                "metric": "Global average temperature increase (\u00b0C)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech006",
+                    "name": "Renewable Energy Systems",
+                    "description": "Expand the deployment of wind, solar, and hydroelectric power to replace fossil fuels.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Turbines",
+                        "Solar panels",
+                        "Hydraulic systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res006",
+                            "name": "Energy Efficiency Innovations",
+                            "description": "Enhance the efficiency of renewable energy technologies for wider adoption.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Renewable Energy",
+                                "Sustainable Systems"
+                            ],
+                            "institution": [
+                                "IPCC",
+                                "International Renewable Energy Agency"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact006",
+                    "name": "Global Temperature Stabilization",
+                    "description": "Prevent catastrophic climate impacts by maintaining a stable climate.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope006",
+                "name": "Global Climate Strategies",
+                "description": "Implement mitigation and adaptation efforts globally.",
+                "biome": [
+                    "Tundra",
+                    "Marine",
+                    "Savanna"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake006",
+                    "name": "International Organizations",
+                    "description": "Coordinate global efforts to address climate change.",
+                    "role": [
+                        "Coordinator",
+                        "Regulator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc007",
+            "name": "Ensure clean water availability",
+            "description": "Innovate in water purification and desalination technologies.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal007",
+                "name": "Universal Access to Clean Water",
+                "description": "Provide clean and affordable water to all communities.",
+                "metric": "Population with access to clean water (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech007",
+                    "name": "Reverse Osmosis Desalination",
+                    "description": "Use reverse osmosis to convert seawater into potable water.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Membranes",
+                        "Pressure pumps"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res007",
+                            "name": "Energy-Efficient Desalination",
+                            "description": "Reduce energy consumption in desalination processes.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Water Technology",
+                                "Sustainable Engineering"
+                            ],
+                            "institution": [
+                                "UNICEF",
+                                "World Health Organization"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact007",
+                    "name": "Health and Sanitation",
+                    "description": "Improve public health through access to clean water.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope007",
+                "name": "Global Water Access",
+                "description": "Ensure access to clean water in arid and developing regions.",
+                "biome": [
+                    "Desert",
+                    "Freshwater"
+                ],
+                "region": [
+                    "Africa",
+                    "Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake007",
+                    "name": "NGOs",
+                    "description": "Provide funding and resources for water purification projects.",
+                    "role": [
+                        "Sponsor",
+                        "Advocate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc008",
+            "name": "Restore and protect ecosystems",
+            "description": "Implement methods to restore degraded ecosystems and protect biodiversity.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal008",
+                "name": "Ecosystem Restoration",
+                "description": "Restore 50% of degraded ecosystems globally by 2050.",
+                "metric": "Percentage of ecosystems restored (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech008",
+                    "name": "Reforestation Drones",
+                    "description": "Deploy drones to plant trees and monitor forest health.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Seed pods",
+                        "Monitoring sensors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res008",
+                            "name": "Drone Optimization for Restoration",
+                            "description": "Enhance drones for efficient large-scale reforestation projects.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Environmental Engineering",
+                                "Biodiversity"
+                            ],
+                            "institution": [
+                                "WWF",
+                                "Global Forest Watch"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact008",
+                    "name": "Biodiversity Protection",
+                    "description": "Prevent species extinction by restoring habitats.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope008",
+                "name": "Global Biodiversity",
+                "description": "Focus on regions with critical biodiversity hotspots.",
+                "biome": [
+                    "Tropical Rainforest",
+                    "Grassland",
+                    "Marine"
+                ],
+                "region": [
+                    "South America",
+                    "Southeast Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake008",
+                    "name": "Conservation Groups",
+                    "description": "Work to protect and restore habitats worldwide.",
+                    "role": [
+                        "Implementer",
+                        "Advocate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc009",
+            "name": "Reduce plastic pollution",
+            "description": "Develop biodegradable alternatives and improve recycling technologies.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal009",
+                "name": "Plastic-Free Oceans",
+                "description": "Eliminate plastic waste from oceans by 90% by 2040.",
+                "metric": "Reduction in ocean plastic waste (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech009",
+                    "name": "Biodegradable Plastics",
+                    "description": "Create plastics that decompose naturally in the environment.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Biopolymers",
+                        "Enzymatic additives"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res009",
+                            "name": "Advanced Biopolymer Development",
+                            "description": "Improve the durability and decomposition rate of bioplastics.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Materials Science",
+                                "Environmental Chemistry"
+                            ],
+                            "institution": [
+                                "The Ocean Cleanup",
+                                "Plastic Bank"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact009",
+                    "name": "Marine Life Protection",
+                    "description": "Reduce the harm to marine ecosystems caused by plastic waste.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope009",
+                "name": "Global Marine Ecosystems",
+                "description": "Target regions with significant plastic pollution problems.",
+                "biome": [
+                    "Marine"
+                ],
+                "region": [
+                    "Pacific Ocean",
+                    "Indian Ocean"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake009",
+                    "name": "Environmental Startups",
+                    "description": "Innovate solutions to replace single-use plastics.",
+                    "role": [
+                        "Innovator",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc010",
+            "name": "Combat air pollution",
+            "description": "Create technologies to reduce emissions from industrial and transportation sources.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal010",
+                "name": "Clean Air Initiative",
+                "description": "Reduce urban air pollution levels by 50% by 2030.",
+                "metric": "Reduction in PM2.5 levels (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech010",
+                    "name": "Emission Scrubbers",
+                    "description": "Install scrubbers in factories to capture harmful pollutants before release.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Filtration systems",
+                        "Absorbents"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res010",
+                            "name": "Advanced Scrubber Design",
+                            "description": "Enhance the efficiency and scalability of emission scrubbers.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Air Quality Engineering",
+                                "Industrial Systems"
+                            ],
+                            "institution": [
+                                "Clean Air Asia",
+                                "EPA"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact010",
+                    "name": "Public Health Benefits",
+                    "description": "Reduce respiratory illnesses and improve quality of life in urban areas.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope010",
+                "name": "Urban Air Quality",
+                "description": "Focus on highly polluted cities and industrial zones.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Asia",
+                    "South America"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake010",
+                    "name": "Municipal Governments",
+                    "description": "Implement policies and fund air pollution reduction projects.",
+                    "role": [
+                        "Policymaker",
+                        "Funder"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc011",
+            "name": "Cure cancer",
+            "description": "Find universal or highly targeted cures for various types of cancer.",
+            "domain": "Health",
+            "Goal": {
+                "id": "goal011",
+                "name": "Universal Cancer Cure",
+                "description": "Develop treatments that eliminate cancer with minimal side effects.",
+                "metric": "Cancer survival rate increase (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech011",
+                    "name": "Immunotherapy",
+                    "description": "Harness the immune system to target and destroy cancer cells.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Biologic agents",
+                        "Antibodies"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res011",
+                            "name": "Checkpoint Inhibitors",
+                            "description": "Develop drugs that remove the immune system\u2019s brakes to attack cancer.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Oncology",
+                                "Immunology"
+                            ],
+                            "institution": [
+                                "National Cancer Institute",
+                                "MD Anderson Cancer Center"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact011",
+                    "name": "Improved Health Outcomes",
+                    "description": "Increase survival rates and quality of life for cancer patients.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope011",
+                "name": "Global Cancer Treatment",
+                "description": "Address cancer in all forms globally.",
+                "biome": [
+                    "Urban",
+                    "Temperate Forest"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake011",
+                    "name": "Pharmaceutical Companies",
+                    "description": "Develop and distribute innovative cancer therapies.",
+                    "role": [
+                        "Developer",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc012",
+            "name": "Address antibiotic resistance",
+            "description": "Develop new antibiotics and alternative treatments to combat resistant bacteria.",
+            "domain": "Health",
+            "Goal": {
+                "id": "goal012",
+                "name": "Combat Superbugs",
+                "description": "Create effective treatments for antibiotic-resistant infections.",
+                "metric": "Reduction in antibiotic-resistant infections (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech012",
+                    "name": "Phage Therapy",
+                    "description": "Use bacteriophages to target and destroy specific bacteria.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Bacteriophage cultures",
+                        "Delivery systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res012",
+                            "name": "Phage-Host Interaction Studies",
+                            "description": "Understand phage effectiveness against resistant bacteria.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Microbiology",
+                                "Infectious Diseases"
+                            ],
+                            "institution": [
+                                "Wellcome Trust",
+                                "European Society of Clinical Microbiology"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact012",
+                    "name": "Reduced Mortality",
+                    "description": "Prevent deaths from untreatable bacterial infections.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope012",
+                "name": "Global Infection Control",
+                "description": "Focus on areas with high antibiotic misuse and resistance rates.",
+                "biome": [
+                    "Urban",
+                    "Temperate Forest"
+                ],
+                "region": [
+                    "Asia",
+                    "Africa"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake012",
+                    "name": "Global Health Organizations",
+                    "description": "Coordinate efforts to manage antibiotic resistance worldwide.",
+                    "role": [
+                        "Coordinator",
+                        "Advocate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc013",
+            "name": "Prevent and treat neurodegenerative diseases",
+            "description": "Create effective therapies for Alzheimer's, Parkinson's, and other neurodegenerative disorders.",
+            "domain": "Health",
+            "Goal": {
+                "id": "goal013",
+                "name": "Neurodegenerative Disease Therapy",
+                "description": "Slow or reverse the progression of neurodegenerative diseases.",
+                "metric": "Reduction in disease progression rate (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech013",
+                    "name": "Gene Therapy",
+                    "description": "Use genetic engineering to treat or prevent neurodegenerative disorders.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Viral vectors",
+                        "Gene-editing tools"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res013",
+                            "name": "CRISPR in Neurology",
+                            "description": "Explore gene-editing applications for neurodegenerative diseases.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Genetics",
+                                "Neurology"
+                            ],
+                            "institution": [
+                                "Harvard Medical School",
+                                "Broad Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact013",
+                    "name": "Improved Quality of Life",
+                    "description": "Enhance life expectancy and functionality for affected individuals.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope013",
+                "name": "Global Neurological Health",
+                "description": "Target vulnerable populations worldwide.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "North America",
+                    "Europe"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake013",
+                    "name": "Medical Research Institutions",
+                    "description": "Advance research and clinical trials for therapies.",
+                    "role": [
+                        "Researcher",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc014",
+            "name": "Improve mental health treatment",
+            "description": "Innovate in diagnosis and treatment of mental health disorders.",
+            "domain": "Health",
+            "Goal": {
+                "id": "goal014",
+                "name": "Accessible Mental Health Care",
+                "description": "Provide affordable and effective mental health services globally.",
+                "metric": "Increase in mental health treatment access (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech014",
+                    "name": "Digital Therapeutics",
+                    "description": "Use software-based interventions to treat mental health conditions.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Mobile applications",
+                        "Wearable sensors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res014",
+                            "name": "Behavioral AI Models",
+                            "description": "Develop AI tools to predict and manage mental health crises.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Psychology",
+                                "Artificial Intelligence"
+                            ],
+                            "institution": [
+                                "World Health Organization",
+                                "NIH"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact014",
+                    "name": "Reduced Stigma",
+                    "description": "Promote awareness and reduce discrimination around mental health issues.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope014",
+                "name": "Global Mental Health",
+                "description": "Address mental health needs across diverse regions.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake014",
+                    "name": "Mental Health Advocates",
+                    "description": "Promote mental health awareness and support services.",
+                    "role": [
+                        "Advocate",
+                        "Educator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc015",
+            "name": "Develop personalized medicine",
+            "description": "Tailor medical treatments based on individual genetic profiles.",
+            "domain": "Health",
+            "Goal": {
+                "id": "goal015",
+                "name": "Genetic-Based Treatments",
+                "description": "Customize treatments to individual genetic, environmental, and lifestyle factors.",
+                "metric": "Reduction in treatment failure rate (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech015",
+                    "name": "Genomic Sequencing",
+                    "description": "Analyze individual genomes to inform personalized treatments.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Sequencing machines",
+                        "Genetic databases"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res015",
+                            "name": "Precision Medicine Algorithms",
+                            "description": "Develop algorithms to match patients with the most effective treatments.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Genetics",
+                                "Biomedical Engineering"
+                            ],
+                            "institution": [
+                                "23andMe",
+                                "Illumina"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact015",
+                    "name": "Treatment Effectiveness",
+                    "description": "Increase the success rates of medical interventions.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope015",
+                "name": "Personalized Healthcare",
+                "description": "Provide targeted treatments worldwide.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake015",
+                    "name": "Healthcare Providers",
+                    "description": "Deliver personalized treatments to patients.",
+                    "role": [
+                        "Clinician",
+                        "Advisor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc016",
+            "name": "Advance gene editing",
+            "description": "Improve CRISPR and other gene-editing technologies for safe and precise medical applications.",
+            "domain": "Biotechnology and Genetics",
+            "Goal": {
+                "id": "goal016",
+                "name": "Safe and Precise Gene Editing",
+                "description": "Enhance gene-editing accuracy and reduce off-target effects.",
+                "metric": "Reduction in off-target editing errors (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech016",
+                    "name": "CRISPR-Cas9",
+                    "description": "A versatile tool for targeting and editing specific DNA sequences.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Guide RNA",
+                        "Cas9 protein"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res016",
+                            "name": "Base Editing Techniques",
+                            "description": "Develop methods for single-nucleotide precision in gene editing.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Genetics",
+                                "Biotechnology"
+                            ],
+                            "institution": [
+                                "Broad Institute",
+                                "University of California, Berkeley"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact016",
+                    "name": "Treatment of Genetic Diseases",
+                    "description": "Enable cures for diseases caused by genetic mutations.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope016",
+                "name": "Global Genetic Health",
+                "description": "Address genetic disorders worldwide.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake016",
+                    "name": "Biotech Companies",
+                    "description": "Develop and commercialize gene-editing therapies.",
+                    "role": [
+                        "Developer",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc017",
+            "name": "Synthetic biology",
+            "description": "Engineer microorganisms for sustainable production of fuels, chemicals, and pharmaceuticals.",
+            "domain": "Biotechnology and Genetics",
+            "Goal": {
+                "id": "goal017",
+                "name": "Sustainable Biomanufacturing",
+                "description": "Use engineered organisms to replace fossil-based processes.",
+                "metric": "Reduction in carbon emissions from manufacturing (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech017",
+                    "name": "Microbial Factories",
+                    "description": "Genetically modified microbes for production of valuable compounds.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Cultivation systems",
+                        "Synthetic DNA"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res017",
+                            "name": "Pathway Optimization",
+                            "description": "Enhance metabolic pathways for higher yields in microbes.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Synthetic Biology",
+                                "Industrial Biotechnology"
+                            ],
+                            "institution": [
+                                "SynBioBeta",
+                                "Amyris"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact017",
+                    "name": "Reduction in Environmental Pollution",
+                    "description": "Lower pollution by replacing traditional chemical processes.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope017",
+                "name": "Global Biomanufacturing",
+                "description": "Apply sustainable production globally.",
+                "biome": [
+                    "Urban",
+                    "Temperate Forest"
+                ],
+                "region": [
+                    "North America",
+                    "Europe"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake017",
+                    "name": "Chemical Companies",
+                    "description": "Adopt microbial technologies for industrial applications.",
+                    "role": [
+                        "Adopter",
+                        "Investor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc018",
+            "name": "Regenerate tissues and organs",
+            "description": "Develop techniques for growing organs and tissues for transplantation.",
+            "domain": "Biotechnology and Genetics",
+            "Goal": {
+                "id": "goal018",
+                "name": "Organ and Tissue Regeneration",
+                "description": "Create lab-grown tissues and organs for human transplantation.",
+                "metric": "Organs successfully grown and transplanted (units/year)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech018",
+                    "name": "3D Bioprinting",
+                    "description": "Use 3D printing to construct functional tissues and organs.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Biomaterials",
+                        "Stem cells"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res018",
+                            "name": "Vascularization Techniques",
+                            "description": "Develop methods to create functional blood vessels in printed tissues.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Tissue Engineering",
+                                "Regenerative Medicine"
+                            ],
+                            "institution": [
+                                "Wake Forest Institute for Regenerative Medicine",
+                                "Harvard Wyss Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact018",
+                    "name": "Address Organ Shortages",
+                    "description": "Provide organs to patients in need, reducing transplant waiting lists.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope018",
+                "name": "Global Organ Access",
+                "description": "Ensure equal access to regenerative therapies worldwide.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake018",
+                    "name": "Hospitals",
+                    "description": "Implement regenerative medicine technologies for patient care.",
+                    "role": [
+                        "Adopter",
+                        "Clinician"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc019",
+            "name": "Understand the human microbiome",
+            "description": "Explore how the microbiome influences health and disease.",
+            "domain": "Biotechnology and Genetics",
+            "Goal": {
+                "id": "goal019",
+                "name": "Microbiome Insights",
+                "description": "Map microbiome functions and their role in human health.",
+                "metric": "Number of microbiome-related treatments developed (units)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech019",
+                    "name": "Metagenomics",
+                    "description": "Use genetic sequencing to study microbial communities in humans.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Sequencing kits",
+                        "Bioinformatics tools"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res019",
+                            "name": "Microbial Therapy Development",
+                            "description": "Create probiotics and therapies targeting microbiome imbalances.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Microbiology",
+                                "Human Health"
+                            ],
+                            "institution": [
+                                "Human Microbiome Project",
+                                "Gut Health Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact019",
+                    "name": "Improved Digestive Health",
+                    "description": "Address diseases linked to microbiome imbalances.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope019",
+                "name": "Global Microbiome Research",
+                "description": "Focus on diverse populations to understand microbiome variability.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "North America",
+                    "Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake019",
+                    "name": "Health Research Organizations",
+                    "description": "Study microbiome-related health issues and solutions.",
+                    "role": [
+                        "Researcher",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc020",
+            "name": "Combat genetic diseases",
+            "description": "Find cures for hereditary diseases through genetic therapy and intervention.",
+            "domain": "Biotechnology and Genetics",
+            "Goal": {
+                "id": "goal020",
+                "name": "Eradication of Genetic Diseases",
+                "description": "Develop therapies to eliminate inherited diseases.",
+                "metric": "Genetic disease cases reduced (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech020",
+                    "name": "Gene Replacement Therapy",
+                    "description": "Replace faulty genes with functional copies to treat diseases.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Vectors",
+                        "Therapeutic genes"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res020",
+                            "name": "Safe Gene Delivery",
+                            "description": "Develop safe and effective methods for delivering genetic material to cells.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Genetics",
+                                "Medicine"
+                            ],
+                            "institution": [
+                                "National Institutes of Health",
+                                "University of Cambridge"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact020",
+                    "name": "Reduced Genetic Disorder Burden",
+                    "description": "Improve quality of life for individuals with hereditary conditions.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope020",
+                "name": "Global Genetic Therapy Access",
+                "description": "Provide genetic treatments worldwide.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake020",
+                    "name": "Medical Institutions",
+                    "description": "Deliver advanced genetic therapies to patients.",
+                    "role": [
+                        "Clinician",
+                        "Researcher"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc021",
+            "name": "Achieve general AI",
+            "description": "Develop artificial intelligence that can perform any intellectual task that a human can.",
+            "domain": "Computing and Artificial Intelligence",
+            "Goal": {
+                "id": "goal021",
+                "name": "Human-Level General AI",
+                "description": "Create AI systems with reasoning, problem-solving, and learning abilities comparable to humans.",
+                "metric": "AI systems passing Turing Test (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech021",
+                    "name": "Neural Networks",
+                    "description": "Deep learning models designed to mimic human brain functions.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "High-performance GPUs",
+                        "Large datasets"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res021",
+                            "name": "Explainable AI (XAI)",
+                            "description": "Develop techniques for AI transparency and accountability.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Machine Learning",
+                                "Cognitive Science"
+                            ],
+                            "institution": [
+                                "OpenAI",
+                                "DeepMind"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact021",
+                    "name": "Enhanced Decision-Making",
+                    "description": "Improve decision-making in industries through AI applications.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope021",
+                "name": "Global AI Integration",
+                "description": "Integrate general AI across diverse industries and regions.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake021",
+                    "name": "Tech Companies",
+                    "description": "Develop, deploy, and regulate general AI technologies.",
+                    "role": [
+                        "Developer",
+                        "Regulator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc022",
+            "name": "Ensure AI ethics and safety",
+            "description": "Create frameworks to ensure ethical use and safety of AI technologies.",
+            "domain": "Computing and Artificial Intelligence",
+            "Goal": {
+                "id": "goal022",
+                "name": "Ethical AI Frameworks",
+                "description": "Establish guidelines to mitigate AI risks and ensure ethical practices.",
+                "metric": "Compliance with ethical AI standards (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech022",
+                    "name": "AI Ethics Toolkits",
+                    "description": "Frameworks for assessing and ensuring the ethical use of AI.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Algorithm auditing tools",
+                        "Ethical guidelines"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res022",
+                            "name": "Bias Mitigation in AI",
+                            "description": "Develop techniques to reduce algorithmic bias in AI systems.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Ethics",
+                                "Artificial Intelligence"
+                            ],
+                            "institution": [
+                                "Partnership on AI",
+                                "Future of Life Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact022",
+                    "name": "Trustworthy AI",
+                    "description": "Foster trust and transparency in AI systems across sectors.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope022",
+                "name": "Global AI Governance",
+                "description": "Establish international cooperation on AI ethics and safety.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake022",
+                    "name": "Policy Makers",
+                    "description": "Design and enforce regulations for ethical AI use.",
+                    "role": [
+                        "Regulator",
+                        "Advocate"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc023",
+            "name": "Improve quantum computing",
+            "description": "Develop practical and scalable quantum computers.",
+            "domain": "Computing and Artificial Intelligence",
+            "Goal": {
+                "id": "goal023",
+                "name": "Scalable Quantum Systems",
+                "description": "Achieve quantum computing systems with over 1,000 qubits.",
+                "metric": "Number of operational qubits"
+            },
+            "Technologies": [
+                {
+                    "id": "tech023",
+                    "name": "Superconducting Qubits",
+                    "description": "Qubits based on superconducting circuits for quantum computation.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Cryogenic systems",
+                        "Superconducting materials"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res023",
+                            "name": "Error Correction Algorithms",
+                            "description": "Develop methods to minimize errors in quantum computations.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Quantum Physics",
+                                "Computer Science"
+                            ],
+                            "institution": [
+                                "IBM",
+                                "Google AI Quantum"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact023",
+                    "name": "Advances in Computing Power",
+                    "description": "Enable breakthroughs in cryptography, drug discovery, and optimization.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope023",
+                "name": "Global Quantum Networks",
+                "description": "Enable quantum computing applications across the globe.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake023",
+                    "name": "Quantum Computing Firms",
+                    "description": "Lead in the development and deployment of quantum technologies.",
+                    "role": [
+                        "Developer",
+                        "Investor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc024",
+            "name": "Cybersecurity",
+            "description": "Create unbreakable encryption and secure communication systems.",
+            "domain": "Computing and Artificial Intelligence",
+            "Goal": {
+                "id": "goal024",
+                "name": "Secure Digital Communication",
+                "description": "Develop encryption methods resistant to quantum computing attacks.",
+                "metric": "Reduction in cyber breaches (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech024",
+                    "name": "Post-Quantum Cryptography",
+                    "description": "Encryption algorithms designed to withstand quantum attacks.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Quantum-safe algorithms",
+                        "Secure key exchange protocols"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res024",
+                            "name": "Quantum-Resistant Key Exchange",
+                            "description": "Design protocols for secure communication in the quantum era.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Cryptography",
+                                "Quantum Computing"
+                            ],
+                            "institution": [
+                                "NIST",
+                                "Cambridge Quantum"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact024",
+                    "name": "Protection of Data",
+                    "description": "Ensure the safety of sensitive information in the digital age.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope024",
+                "name": "Global Cybersecurity Standards",
+                "description": "Apply cybersecurity measures to critical infrastructures worldwide.",
+                "biome": [
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake024",
+                    "name": "Cybersecurity Agencies",
+                    "description": "Implement and enforce robust digital security systems.",
+                    "role": [
+                        "Regulator",
+                        "Advisor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc025",
+            "name": "Develop brain-computer interfaces",
+            "description": "Enhance direct communication between brains and computers for medical and non-medical applications.",
+            "domain": "Computing and Artificial Intelligence",
+            "Goal": {
+                "id": "goal025",
+                "name": "Seamless Brain-Computer Communication",
+                "description": "Develop interfaces for non-invasive, high-resolution brain-computer communication.",
+                "metric": "Data transfer rate between brain and computer (bps)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech025",
+                    "name": "Non-Invasive Neural Interfaces",
+                    "description": "Wearable devices that read brain activity without invasive procedures.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Electrodes",
+                        "Signal processors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res025",
+                            "name": "Neural Signal Decoding",
+                            "description": "Improve algorithms for interpreting brain activity into actionable data.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Neuroscience",
+                                "Biomedical Engineering"
+                            ],
+                            "institution": [
+                                "Neuralink",
+                                "BrainGate"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact025",
+                    "name": "Rehabilitation for Disabilities",
+                    "description": "Restore functions for individuals with neurological impairments.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope025",
+                "name": "Global Neural Access",
+                "description": "Provide equitable access to brain-computer technologies worldwide.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake025",
+                    "name": "Neurotechnology Companies",
+                    "description": "Design and commercialize brain-computer interface technologies.",
+                    "role": [
+                        "Developer",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc026",
+            "name": "Enable human Mars exploration",
+            "description": "Overcome the technical and physiological challenges of manned missions to Mars.",
+            "domain": "Space",
+            "Goal": {
+                "id": "goal026",
+                "name": "Manned Mars Mission",
+                "description": "Achieve a successful human landing and return mission to Mars.",
+                "metric": "Number of humans successfully landing on Mars"
+            },
+            "Technologies": [
+                {
+                    "id": "tech026",
+                    "name": "Mars Habitat Modules",
+                    "description": "Design sustainable habitats for long-term human habitation on Mars.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Radiation shielding",
+                        "Regenerative life support systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res026",
+                            "name": "Radiation Protection Systems",
+                            "description": "Develop advanced materials and technologies to shield humans from cosmic radiation.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Aerospace Engineering",
+                                "Materials Science"
+                            ],
+                            "institution": [
+                                "NASA",
+                                "SpaceX"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact026",
+                    "name": "Expansion of Human Presence",
+                    "description": "Establish humanity as a multiplanetary species.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope026",
+                "name": "Mars Exploration",
+                "description": "Focus on developing the infrastructure needed for Mars missions.",
+                "biome": [
+                    "Desert"
+                ],
+                "region": [
+                    "Mars"
+                ],
+                "geographicScope": "Interplanetary"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake026",
+                    "name": "Space Agencies",
+                    "description": "Lead the development and execution of Mars missions.",
+                    "role": [
+                        "Developer",
+                        "Operator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc027",
+            "name": "Search for extraterrestrial life",
+            "description": "Develop methods to detect and study life beyond Earth.",
+            "domain": "Space",
+            "Goal": {
+                "id": "goal027",
+                "name": "Detection of Extraterrestrial Life",
+                "description": "Identify microbial or complex life on other planets or moons.",
+                "metric": "Number of confirmed extraterrestrial life detections"
+            },
+            "Technologies": [
+                {
+                    "id": "tech027",
+                    "name": "Astrobiological Instruments",
+                    "description": "Tools designed to detect biosignatures and analyze extraterrestrial environments.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Spectrometers",
+                        "Sample collection systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res027",
+                            "name": "Biosignature Analysis",
+                            "description": "Study markers that indicate biological activity in extraterrestrial samples.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Astrobiology",
+                                "Planetary Science"
+                            ],
+                            "institution": [
+                                "European Space Agency",
+                                "SETI Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact027",
+                    "name": "Understanding Life's Origins",
+                    "description": "Enhance knowledge of how life emerges and evolves in the universe.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope027",
+                "name": "Interplanetary Exploration",
+                "description": "Investigate environments capable of supporting life in our solar system.",
+                "biome": [
+                    "Tundra"
+                ],
+                "region": [
+                    "Mars",
+                    "Europa"
+                ],
+                "geographicScope": "Interplanetary"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake027",
+                    "name": "Research Institutions",
+                    "description": "Conduct studies and develop technologies for astrobiological research.",
+                    "role": [
+                        "Researcher",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc028",
+            "name": "Develop space habitats",
+            "description": "Create sustainable living environments for long-term space habitation.",
+            "domain": "Space",
+            "Goal": {
+                "id": "goal028",
+                "name": "Sustainable Space Living",
+                "description": "Design and build habitats capable of supporting human life for extended periods in space.",
+                "metric": "Number of operational space habitats"
+            },
+            "Technologies": [
+                {
+                    "id": "tech028",
+                    "name": "Expandable Space Modules",
+                    "description": "Lightweight, inflatable structures for use in microgravity environments.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Kevlar",
+                        "Multi-layer insulation"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res028",
+                            "name": "Life Support Systems",
+                            "description": "Develop regenerative systems to recycle air, water, and waste in space habitats.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Environmental Systems",
+                                "Aerospace Engineering"
+                            ],
+                            "institution": [
+                                "Bigelow Aerospace",
+                                "NASA"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact028",
+                    "name": "Advancement in Space Exploration",
+                    "description": "Enable long-term missions to the Moon, Mars, and beyond.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope028",
+                "name": "Orbital and Planetary Habitats",
+                "description": "Support human life in orbit and on planetary surfaces.",
+                "biome": [
+                    "Desert"
+                ],
+                "region": [
+                    "Low Earth Orbit",
+                    "Lunar Surface"
+                ],
+                "geographicScope": "Interplanetary"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake028",
+                    "name": "Private Space Companies",
+                    "description": "Design and deploy space habitats for government and commercial use.",
+                    "role": [
+                        "Developer",
+                        "Operator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc029",
+            "name": "Protect Earth from asteroids",
+            "description": "Implement systems to detect and deflect potentially hazardous asteroids.",
+            "domain": "Space",
+            "Goal": {
+                "id": "goal029",
+                "name": "Planetary Defense",
+                "description": "Develop technologies to prevent catastrophic asteroid impacts.",
+                "metric": "Number of asteroid threats mitigated"
+            },
+            "Technologies": [
+                {
+                    "id": "tech029",
+                    "name": "Asteroid Deflection Systems",
+                    "description": "Methods for altering asteroid trajectories to avoid collisions with Earth.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Kinetic impactors",
+                        "Propulsion systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res029",
+                            "name": "Kinetic Deflection Studies",
+                            "description": "Study methods to redirect asteroid paths through kinetic impact.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Astrophysics",
+                                "Aerospace Engineering"
+                            ],
+                            "institution": [
+                                "ESA",
+                                "Johns Hopkins Applied Physics Laboratory"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact029",
+                    "name": "Global Safety",
+                    "description": "Protect human civilization from existential asteroid threats.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope029",
+                "name": "Planetary Protection",
+                "description": "Monitor and defend against space-based hazards to Earth.",
+                "biome": [
+                    "Global"
+                ],
+                "region": [
+                    "Earth"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake029",
+                    "name": "Global Space Organizations",
+                    "description": "Collaborate on planetary defense initiatives.",
+                    "role": [
+                        "Collaborator",
+                        "Operator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc030",
+            "name": "Improve space propulsion",
+            "description": "Innovate propulsion systems for faster and more efficient space travel.",
+            "domain": "Space",
+            "Goal": {
+                "id": "goal030",
+                "name": "Advanced Propulsion Systems",
+                "description": "Develop engines capable of interplanetary travel with reduced energy consumption.",
+                "metric": "Reduction in fuel mass required for missions (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech030",
+                    "name": "Ion Propulsion Systems",
+                    "description": "High-efficiency engines using ionized particles for thrust.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Xenon gas",
+                        "Electromagnetic thrusters"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res030",
+                            "name": "Plasma Propulsion Advances",
+                            "description": "Improve plasma engines for higher thrust-to-weight ratios.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Plasma Physics",
+                                "Space Engineering"
+                            ],
+                            "institution": [
+                                "NASA",
+                                "ESA"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact030",
+                    "name": "Enhanced Space Access",
+                    "description": "Enable deeper and faster exploration of the solar system.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope030",
+                "name": "Solar System Exploration",
+                "description": "Apply propulsion advancements to missions within and beyond the solar system.",
+                "biome": [
+                    "Interplanetary"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Interplanetary"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake030",
+                    "name": "Aerospace Companies",
+                    "description": "Develop and test advanced propulsion systems.",
+                    "role": [
+                        "Developer",
+                        "Researcher"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc031",
+            "name": "Develop advanced materials",
+            "description": "Create new materials with exceptional properties for various applications.",
+            "domain": "Materials Science",
+            "Goal": {
+                "id": "goal031",
+                "name": "Revolutionary Material Innovation",
+                "description": "Develop materials with properties that surpass current technological limits.",
+                "metric": "Number of new materials with superior properties developed"
+            },
+            "Technologies": [
+                {
+                    "id": "tech031",
+                    "name": "Graphene Applications",
+                    "description": "Leverage graphene's exceptional strength, conductivity, and flexibility.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Graphene sheets",
+                        "Conductive polymers"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res031",
+                            "name": "Graphene-based Electronics",
+                            "description": "Create faster and more efficient electronic components using graphene.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Nanotechnology",
+                                "Electronics"
+                            ],
+                            "institution": [
+                                "MIT",
+                                "University of Manchester"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact031",
+                    "name": "Technological Advancements",
+                    "description": "Enable breakthroughs in electronics, transportation, and medicine.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope031",
+                "name": "Global Material Use",
+                "description": "Apply advanced materials in industries worldwide.",
+                "biome": [
+                    "Urban",
+                    "Industrial"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake031",
+                    "name": "Material Science Companies",
+                    "description": "Research and develop new materials for various industries.",
+                    "role": [
+                        "Developer",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc032",
+            "name": "Nano-engineering",
+            "description": "Manipulate materials at the nanoscale for enhanced performance and new functionalities.",
+            "domain": "Materials Science",
+            "Goal": {
+                "id": "goal032",
+                "name": "Functional Nanostructures",
+                "description": "Design nanoscale structures with superior properties for diverse applications.",
+                "metric": "Number of nanoscale innovations deployed"
+            },
+            "Technologies": [
+                {
+                    "id": "tech032",
+                    "name": "Carbon Nanotubes",
+                    "description": "Use carbon nanotubes for strength and electrical conductivity in materials.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Carbon nanotubes",
+                        "Epoxy resins"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res032",
+                            "name": "Nanotube Integration",
+                            "description": "Develop methods to integrate nanotubes into composite materials.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Nanotechnology",
+                                "Materials Science"
+                            ],
+                            "institution": [
+                                "Rice University",
+                                "National Institute of Standards and Technology"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact032",
+                    "name": "Enhanced Material Properties",
+                    "description": "Enable stronger, lighter, and more efficient materials.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope032",
+                "name": "Global Nanotechnology Applications",
+                "description": "Integrate nanoscale engineering into manufacturing processes.",
+                "biome": [
+                    "Urban",
+                    "Industrial"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake032",
+                    "name": "Nanotechnology Firms",
+                    "description": "Drive the research and commercialization of nanotechnology solutions.",
+                    "role": [
+                        "Researcher",
+                        "Manufacturer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc033",
+            "name": "Self-healing materials",
+            "description": "Develop materials that can repair themselves after damage.",
+            "domain": "Materials Science",
+            "Goal": {
+                "id": "goal033",
+                "name": "Autonomous Material Repair",
+                "description": "Create materials capable of repairing physical damage autonomously.",
+                "metric": "Durability improvement in self-healing materials (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech033",
+                    "name": "Polymeric Self-Healing",
+                    "description": "Use polymers that can restore their structural integrity after damage.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Self-healing polymers",
+                        "Catalytic additives"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res033",
+                            "name": "Catalyst Optimization",
+                            "description": "Improve catalysts to speed up the self-healing process in materials.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Polymer Science",
+                                "Chemical Engineering"
+                            ],
+                            "institution": [
+                                "Caltech",
+                                "Fraunhofer Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact033",
+                    "name": "Reduced Maintenance Costs",
+                    "description": "Lower the need for repairs in critical infrastructure and devices.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope033",
+                "name": "Infrastructure and Device Applications",
+                "description": "Incorporate self-healing materials into construction and consumer products.",
+                "biome": [
+                    "Urban",
+                    "Industrial"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake033",
+                    "name": "Construction Companies",
+                    "description": "Adopt self-healing materials for infrastructure projects.",
+                    "role": [
+                        "User",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc034",
+            "name": "Lightweight and strong materials",
+            "description": "Innovate materials that are both lightweight and strong for use in transportation and construction.",
+            "domain": "Materials Science",
+            "Goal": {
+                "id": "goal034",
+                "name": "Next-Gen Composite Materials",
+                "description": "Create materials with optimal strength-to-weight ratios.",
+                "metric": "Strength-to-weight ratio improvement (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech034",
+                    "name": "Carbon Fiber Composites",
+                    "description": "Develop high-performance composites for aerospace and automotive applications.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Carbon fibers",
+                        "Resins"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res034",
+                            "name": "Thermal Durability Enhancement",
+                            "description": "Improve carbon fiber composites to withstand extreme temperatures.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Aerospace Engineering",
+                                "Materials Science"
+                            ],
+                            "institution": [
+                                "Boeing",
+                                "Lockheed Martin"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact034",
+                    "name": "Efficiency in Transportation",
+                    "description": "Reduce energy consumption by lightening vehicles and aircraft.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope034",
+                "name": "Transportation and Construction",
+                "description": "Apply advanced materials to improve efficiency and sustainability.",
+                "biome": [
+                    "Urban",
+                    "Industrial"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake034",
+                    "name": "Automotive Manufacturers",
+                    "description": "Incorporate lightweight materials into vehicle designs.",
+                    "role": [
+                        "User",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc035",
+            "name": "Sustainable materials",
+            "description": "Create materials with minimal environmental impact and high recyclability.",
+            "domain": "Materials Science",
+            "Goal": {
+                "id": "goal035",
+                "name": "Eco-Friendly Material Innovation",
+                "description": "Develop materials that reduce waste and conserve resources.",
+                "metric": "Percentage of materials with recyclability"
+            },
+            "Technologies": [
+                {
+                    "id": "tech035",
+                    "name": "Biodegradable Polymers",
+                    "description": "Innovate polymers that break down naturally in the environment.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Biopolymers",
+                        "Enzymatic additives"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res035",
+                            "name": "Decomposition Rate Optimization",
+                            "description": "Improve the decomposition rate of biodegradable materials.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Environmental Science",
+                                "Materials Chemistry"
+                            ],
+                            "institution": [
+                                "University of California, Davis",
+                                "ETH Zurich"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact035",
+                    "name": "Reduction in Plastic Waste",
+                    "description": "Decrease environmental pollution by replacing traditional plastics.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope035",
+                "name": "Global Environmental Impact",
+                "description": "Promote sustainable materials worldwide to protect ecosystems.",
+                "biome": [
+                    "Marine",
+                    "Urban"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake035",
+                    "name": "Environmental NGOs",
+                    "description": "Advocate and fund the adoption of sustainable materials.",
+                    "role": [
+                        "Advocate",
+                        "Sponsor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc040",
+            "name": "Waste management",
+            "description": "Improve methods for waste reduction, recycling, and disposal.",
+            "domain": "Infrastructure and Urban Development",
+            "Goal": {
+                "id": "goal040",
+                "name": "Zero-Waste Solutions",
+                "description": "Achieve significant reductions in landfill waste through innovative practices.",
+                "metric": "Reduction in landfill waste (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech040",
+                    "name": "Advanced Recycling Systems",
+                    "description": "Implement AI-driven sorting and processing for higher recycling rates.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "AI sorting systems",
+                        "Recycling infrastructure"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res040",
+                            "name": "Circular Economy Models",
+                            "description": "Develop frameworks for a closed-loop economy minimizing waste.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Environmental Science",
+                                "Industrial Design"
+                            ],
+                            "institution": [
+                                "Ellen MacArthur Foundation",
+                                "UNEP"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact040",
+                    "name": "Reduced Environmental Pollution",
+                    "description": "Minimize the ecological footprint of waste generation.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope040",
+                "name": "Global Waste Management",
+                "description": "Implement waste management practices across industrialized and developing nations.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake040",
+                    "name": "Waste Management Companies",
+                    "description": "Operate and innovate in recycling, waste reduction, and disposal methods.",
+                    "role": [
+                        "Operator",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc041",
+            "name": "Food security",
+            "description": "Ensure a stable and sustainable food supply for the global population.",
+            "domain": "Agriculture and Food",
+            "Goal": {
+                "id": "goal041",
+                "name": "Sustainable Food Production",
+                "description": "Develop systems to produce sufficient food with minimal environmental impact.",
+                "metric": "Increase in sustainable food yield (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech041",
+                    "name": "Precision Agriculture",
+                    "description": "Utilize GPS and IoT technologies to optimize crop yields and resource usage.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Sensors",
+                        "Drones",
+                        "Data analytics tools"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res041",
+                            "name": "AI-Driven Crop Management",
+                            "description": "Apply AI to predict crop health and optimize farming practices.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Agricultural Science",
+                                "Artificial Intelligence"
+                            ],
+                            "institution": [
+                                "John Deere",
+                                "University of Wageningen"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact041",
+                    "name": "Reduced Hunger",
+                    "description": "Increase food availability to meet the needs of a growing population.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope041",
+                "name": "Global Agriculture Systems",
+                "description": "Address food security challenges across diverse climates and regions.",
+                "biome": [
+                    "Agricultural",
+                    "Savanna"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake041",
+                    "name": "Farmers",
+                    "description": "Adopt and implement precision agriculture technologies.",
+                    "role": [
+                        "Adopter",
+                        "Practitioner"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc042",
+            "name": "Improve crop resilience",
+            "description": "Enhance the ability of crops to withstand climate change and pests.",
+            "domain": "Agriculture and Food",
+            "Goal": {
+                "id": "goal042",
+                "name": "Climate-Resilient Crops",
+                "description": "Develop crop varieties that can thrive in extreme conditions.",
+                "metric": "Increase in crop resilience to stressors (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech042",
+                    "name": "Genetically Modified Crops",
+                    "description": "Engineer crops for resistance to drought, pests, and diseases.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "CRISPR tools",
+                        "Genetic libraries"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res042",
+                            "name": "Drought-Resistant Varieties",
+                            "description": "Develop crop strains that require less water for growth.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Genetics",
+                                "Agricultural Science"
+                            ],
+                            "institution": [
+                                "CIMMYT",
+                                "Monsanto"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact042",
+                    "name": "Stable Crop Yields",
+                    "description": "Ensure consistent agricultural output despite climate variability.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope042",
+                "name": "Global Crop Production",
+                "description": "Focus on regions highly impacted by climate change.",
+                "biome": [
+                    "Savanna",
+                    "Desert"
+                ],
+                "region": [
+                    "Africa",
+                    "Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake042",
+                    "name": "Seed Companies",
+                    "description": "Develop and distribute resilient crop varieties.",
+                    "role": [
+                        "Developer",
+                        "Distributor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc043",
+            "name": "Reduce food waste",
+            "description": "Create systems to minimize food loss across the supply chain.",
+            "domain": "Agriculture and Food",
+            "Goal": {
+                "id": "goal043",
+                "name": "Waste-Free Food Systems",
+                "description": "Implement technologies to reduce waste during production, distribution, and consumption.",
+                "metric": "Reduction in food waste (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech043",
+                    "name": "Cold Chain Logistics",
+                    "description": "Improve refrigerated transport and storage to extend food shelf life.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Refrigeration systems",
+                        "IoT temperature monitors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res043",
+                            "name": "Efficient Refrigeration",
+                            "description": "Optimize energy consumption in cold storage systems.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Logistics",
+                                "Energy Efficiency"
+                            ],
+                            "institution": [
+                                "FAO",
+                                "Nestle"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact043",
+                    "name": "Increased Food Availability",
+                    "description": "Redirect saved food to communities in need.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope043",
+                "name": "Global Supply Chains",
+                "description": "Target waste reduction at every stage of the food supply chain.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake043",
+                    "name": "Food Retailers",
+                    "description": "Implement waste reduction practices in distribution and sales.",
+                    "role": [
+                        "Distributor",
+                        "Innovator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc044",
+            "name": "Alternative protein sources",
+            "description": "Develop and promote sustainable alternatives to traditional animal protein.",
+            "domain": "Agriculture and Food",
+            "Goal": {
+                "id": "goal044",
+                "name": "Sustainable Protein Supply",
+                "description": "Provide high-quality protein with reduced environmental impact.",
+                "metric": "Percentage of alternative proteins in diets"
+            },
+            "Technologies": [
+                {
+                    "id": "tech044",
+                    "name": "Lab-Grown Meat",
+                    "description": "Cultivate animal cells to produce meat without livestock farming.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Cell culture media",
+                        "Bioreactors"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res044",
+                            "name": "Scaling Lab-Meat Production",
+                            "description": "Develop cost-effective methods for large-scale production.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Biotechnology",
+                                "Food Science"
+                            ],
+                            "institution": [
+                                "Memphis Meats",
+                                "Good Food Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact044",
+                    "name": "Reduced Greenhouse Gases",
+                    "description": "Lower emissions associated with traditional livestock farming.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope044",
+                "name": "Global Food Systems",
+                "description": "Incorporate alternative proteins into diets worldwide.",
+                "biome": [
+                    "Urban",
+                    "Rural"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake044",
+                    "name": "Food Tech Companies",
+                    "description": "Innovate and market alternative protein products.",
+                    "role": [
+                        "Innovator",
+                        "Producer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc045",
+            "name": "Soil health",
+            "description": "Preserve and improve soil health to sustain agriculture and ecosystems.",
+            "domain": "Agriculture and Food",
+            "Goal": {
+                "id": "goal045",
+                "name": "Healthy Soils Initiative",
+                "description": "Enhance soil fertility and carbon sequestration worldwide.",
+                "metric": "Increase in soil organic matter (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech045",
+                    "name": "Biochar Applications",
+                    "description": "Use biochar to improve soil health and carbon storage.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Biochar",
+                        "Soil conditioners"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res045",
+                            "name": "Soil Microbial Enhancements",
+                            "description": "Develop methods to boost beneficial soil microorganisms.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Soil Science",
+                                "Microbiology"
+                            ],
+                            "institution": [
+                                "ICRAF",
+                                "Soil Health Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact045",
+                    "name": "Improved Agricultural Output",
+                    "description": "Increase crop yields through better soil management practices.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope045",
+                "name": "Global Soil Health",
+                "description": "Promote practices to maintain and restore soil fertility worldwide.",
+                "biome": [
+                    "Agricultural",
+                    "Forest"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake045",
+                    "name": "Farmers and Agronomists",
+                    "description": "Adopt and implement soil health technologies and practices.",
+                    "role": [
+                        "Practitioner",
+                        "Researcher"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc046",
+            "name": "Ocean health",
+            "description": "Preserve marine ecosystems and ensure sustainable use of ocean resources.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal046",
+                "name": "Marine Ecosystem Restoration",
+                "description": "Reduce ocean pollution and restore degraded marine habitats.",
+                "metric": "Reduction in ocean pollution levels (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech046",
+                    "name": "Autonomous Cleanup Systems",
+                    "description": "Deploy robots and automated systems to remove ocean waste.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Robotic systems",
+                        "Waste collection mechanisms"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res046",
+                            "name": "Marine Robotics",
+                            "description": "Enhance underwater robots for debris collection and monitoring.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Marine Engineering",
+                                "Robotics"
+                            ],
+                            "institution": [
+                                "The Ocean Cleanup",
+                                "NOAA"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact046",
+                    "name": "Improved Marine Biodiversity",
+                    "description": "Restore habitats for marine species and enhance biodiversity.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope046",
+                "name": "Global Ocean Health",
+                "description": "Focus on highly polluted marine environments and biodiversity hotspots.",
+                "biome": [
+                    "Marine"
+                ],
+                "region": [
+                    "Pacific Ocean",
+                    "Indian Ocean"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake046",
+                    "name": "Marine Conservation Organizations",
+                    "description": "Advocate and implement measures to protect ocean health.",
+                    "role": [
+                        "Advocate",
+                        "Operator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc047",
+            "name": "Freshwater conservation",
+            "description": "Protect freshwater ecosystems and manage water resources sustainably.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal047",
+                "name": "Sustainable Water Management",
+                "description": "Ensure clean and abundant freshwater for ecosystems and human needs.",
+                "metric": "Increase in freshwater ecosystem health index (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech047",
+                    "name": "Water Monitoring Sensors",
+                    "description": "Deploy IoT sensors to track water quality and flow in real time.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "IoT devices",
+                        "Data analytics platforms"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res047",
+                            "name": "Advanced Water Purification",
+                            "description": "Develop new technologies to improve water filtration efficiency.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Environmental Science",
+                                "Chemical Engineering"
+                            ],
+                            "institution": [
+                                "UN Water",
+                                "International Water Association"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact047",
+                    "name": "Enhanced Water Security",
+                    "description": "Provide reliable access to clean water for ecosystems and communities.",
+                    "impactType": "Human Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope047",
+                "name": "Global Freshwater Management",
+                "description": "Protect rivers, lakes, and aquifers from overuse and pollution.",
+                "biome": [
+                    "Freshwater"
+                ],
+                "region": [
+                    "Africa",
+                    "Asia"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake047",
+                    "name": "Water Resource Managers",
+                    "description": "Develop and implement sustainable water management practices.",
+                    "role": [
+                        "Planner",
+                        "Operator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc048",
+            "name": "Restore degraded lands",
+            "description": "Revitalize lands affected by deforestation, desertification, and industrial activities.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal048",
+                "name": "Land Restoration Initiative",
+                "description": "Restore 50% of degraded lands globally by 2050.",
+                "metric": "Percentage of degraded land restored (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech048",
+                    "name": "Reforestation Drones",
+                    "description": "Use drones to plant trees and monitor land restoration progress.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Seed pods",
+                        "Aerial drones"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res048",
+                            "name": "Soil Rejuvenation Methods",
+                            "description": "Develop techniques to improve soil fertility in degraded lands.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Soil Science",
+                                "Forestry"
+                            ],
+                            "institution": [
+                                "FAO",
+                                "World Resources Institute"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact048",
+                    "name": "Enhanced Ecosystem Services",
+                    "description": "Restore the ability of land to provide natural resources and benefits.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope048",
+                "name": "Global Land Restoration",
+                "description": "Focus on regions with severe land degradation.",
+                "biome": [
+                    "Savanna",
+                    "Tropical Forest"
+                ],
+                "region": [
+                    "Africa",
+                    "South America"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake048",
+                    "name": "Environmental NGOs",
+                    "description": "Lead efforts to restore lands through funding and coordination.",
+                    "role": [
+                        "Advocate",
+                        "Coordinator"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc049",
+            "name": "Combat biodiversity loss",
+            "description": "Develop strategies to preserve species and ecosystems.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal049",
+                "name": "Biodiversity Preservation",
+                "description": "Reduce species extinction rates and protect key ecosystems.",
+                "metric": "Increase in species population stability index (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech049",
+                    "name": "Conservation Genomics",
+                    "description": "Use genetic tools to protect and revive endangered species.",
+                    "technologyStatus": "New",
+                    "materialsRequired": [
+                        "Genetic sequencing kits",
+                        "Cryopreservation systems"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res049",
+                            "name": "Habitat Connectivity Studies",
+                            "description": "Design strategies to link fragmented habitats for wildlife movement.",
+                            "researchStatus": "Basic",
+                            "researchArea": [
+                                "Ecology",
+                                "Genetics"
+                            ],
+                            "institution": [
+                                "IUCN",
+                                "World Wildlife Fund"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact049",
+                    "name": "Stable Ecosystems",
+                    "description": "Support balanced and resilient ecosystems worldwide.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope049",
+                "name": "Global Biodiversity Conservation",
+                "description": "Focus on biodiversity hotspots and threatened regions.",
+                "biome": [
+                    "Tropical Forest",
+                    "Marine"
+                ],
+                "region": [
+                    "Amazon Basin",
+                    "Coral Triangle"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake049",
+                    "name": "Conservation Scientists",
+                    "description": "Research and implement biodiversity protection strategies.",
+                    "role": [
+                        "Researcher",
+                        "Advisor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gc050",
+            "name": "Reduce carbon emissions",
+            "description": "Develop technologies and policies to significantly cut global carbon emissions.",
+            "domain": "Environment",
+            "Goal": {
+                "id": "goal050",
+                "name": "Net-Zero Carbon",
+                "description": "Achieve global net-zero carbon emissions by 2050.",
+                "metric": "Reduction in global CO2 emissions (%)"
+            },
+            "Technologies": [
+                {
+                    "id": "tech050",
+                    "name": "Carbon Capture and Storage (CCS)",
+                    "description": "Capture CO2 from industrial processes and store it underground.",
+                    "technologyStatus": "Existing",
+                    "materialsRequired": [
+                        "Absorbents",
+                        "Underground storage sites"
+                    ],
+                    "Research": [
+                        {
+                            "id": "res050",
+                            "name": "Direct Air Capture",
+                            "description": "Develop scalable systems to remove CO2 directly from the atmosphere.",
+                            "researchStatus": "Applied",
+                            "researchArea": [
+                                "Climate Science",
+                                "Chemical Engineering"
+                            ],
+                            "institution": [
+                                "IPCC",
+                                "Carbon Engineering"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Impacts": [
+                {
+                    "id": "impact050",
+                    "name": "Climate Stabilization",
+                    "description": "Limit global warming and its associated impacts.",
+                    "impactType": "Physical Impact"
+                }
+            ],
+            "Scope": {
+                "id": "scope050",
+                "name": "Global Emissions Reduction",
+                "description": "Focus on high-emission sectors and regions.",
+                "biome": [
+                    "Urban",
+                    "Industrial"
+                ],
+                "region": [
+                    "Global"
+                ],
+                "geographicScope": "Global"
+            },
+            "Stakeholders": [
+                {
+                    "id": "stake050",
+                    "name": "Policy Makers",
+                    "description": "Design and enforce carbon reduction policies worldwide.",
+                    "role": [
+                        "Regulator",
+                        "Advisor"
+                    ]
+                }
+            ]
+        }
+    ]
+}
