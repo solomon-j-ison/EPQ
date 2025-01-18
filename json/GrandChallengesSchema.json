@@ -1,174 +1,287 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "array",
+  "type": "object",
   "properties": {
-    "GrandChallenge": {
-      "type": "object",
-      "properties": {
-        "id": { "type": "string" },
-        "name": { "type": "string" },
-        "description": { "type": "string" },
-        "domain": {
-          "type": "string",
-          "enum": [
-            "Energy",
-            "Environment",
-            "Health",
-            "Biotechnology and Genetics",
-            "Computing and Artificial Intelligence",
-            "Space",
-            "Materials Science",
-            "Infrastructure and Urban Development",
-            "Education and Human Development",
-            "Economics and Society"
-          ]
-        },
-        "Goal": {
-          "type": "object",
-          "properties": {
-            "id": { "type": "string" },
-            "name": { "type": "string" },
-            "description": { "type": "string" },
-            "metric": { "type": "string" }
+    "GrandChallenges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
           },
-          "required": ["id", "name", "description", "metric"],
-  	  "additionalProperties": false
-        },
-        "Technologies": {
-          "type": "array",
-          "items": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "domain": {
+            "type": "string",
+            "enum": [
+              "Energy",
+              "Environment",
+              "Health",
+              "Biotechnology and Genetics",
+              "Computing and Artificial Intelligence",
+              "Space",
+              "Materials Science",
+              "Infrastructure and Urban Development",
+              "Education and Human Development",
+              "Economics and Society"
+            ]
+          },
+          "Goal": {
             "type": "object",
             "properties": {
-              "id": { "type": "string" },
-              "name": { "type": "string" },
-              "description": { "type": "string" },
-              "technologyStatus": {
-                "type": "string",
-                "enum": ["New", "Existing"]
+              "id": {
+                "type": "string"
               },
-              "materialsRequired": {
-                "type": "array",
-                "items": { "type": "string" }
+              "name": {
+                "type": "string"
               },
-              "Research": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": { "type": "string" },
-                    "name": { "type": "string" },
-                    "description": { "type": "string" },
-                    "researchStatus": {
-                      "type": "string",
-                      "enum": ["Basic", "Applied"]
-                    },
-                    "researchArea": {
-                      "type": "array",
-                      "items": { "type": "string" }
-                    },
-                    "institution": {
-                      "type": "array",
-                      "items": { "type": "string" }
-                    }
-                  },
-                  "required": ["id", "name", "description", "researchStatus", "researchArea"],
-  		  "additionalProperties": false
-                }
+              "description": {
+                "type": "string"
+              },
+              "metric": {
+                "type": "string"
               }
             },
-            "required": ["id", "name", "description", "technologyStatus", "Research"],
-  	    "additionalProperties": false
-          }
-        },
-        "Impacts": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "id": { "type": "string" },
-              "name": { "type": "string" },
-              "description": { "type": "string" },
-              "impactType": {
-                "type": "string",
-                "enum": ["Human Impact", "Physical Impact"]
-              }
-            },
-            "required": ["id", "name", "description", "impactType"],
+            "required": [
+              "id",
+              "name",
+              "description",
+              "metric"
+            ],
             "additionalProperties": false
-          }
-        },
-        "Scope": {
-          "type": "object",
-          "properties": {
-            "id": { "type": "string" },
-            "name": { "type": "string" },
-            "description": { "type": "string" },
-            "biome": {
-              "type": "array",
-              "items": {
-                "type": "string",
-                "enum": [
-                  "Tropical Rainforest",
-                  "Temperate Forest",
-                  "Desert",
-                  "Tundra",
-                  "Tiaga",
-                  "Grassland",
-                  "Savanna",
-                  "Freshwater",
-                  "Marine"
-                ]
-              }
-            },
-            "region": {
-              "type": "array",
-              "items": {
-                "type": "string",
-                "enum": [
-                  "North America",
-                  "South America",
-                  "Africa",
-                  "Asia",
-                  "Australia",
-                  "Antarctica",
-                  "Pacific Ocean",
-                  "Atlantic Ocean",
-                  "Arctic Ocean",
-                  "Indian Ocean",
-                  "Southern Oceans"
-                ]
-              }
-            },
-            "geographicScope": {
-              "type": "string",
-              "enum": ["National", "International", "Global"]
+          },
+          "Technologies": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "technologyStatus": {
+                  "type": "string",
+                  "enum": [
+                    "New",
+                    "Existing"
+                  ]
+                },
+                "materialsRequired": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "Research": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "researchStatus": {
+                        "type": "string",
+                        "enum": [
+                          "Basic",
+                          "Applied"
+                        ]
+                      },
+                      "researchArea": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "institution": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "name",
+                      "description",
+                      "researchStatus",
+                      "researchArea"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "description",
+                "technologyStatus",
+                "Research"
+              ],
+              "additionalProperties": false
             }
           },
-          "required": ["id", "name", "description", "biome", "region", "geographicScope"],
-  	  "additionalProperties": false
-        },
-        "Stakeholders": {
-          "type": "array",
-          "items": {
+          "Impacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "impactType": {
+                  "type": "string",
+                  "enum": [
+                    "Human Impact",
+                    "Physical Impact"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "description",
+                "impactType"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "Scope": {
             "type": "object",
             "properties": {
-              "id": { "type": "string" },
-              "name": { "type": "string" },
-              "description": { "type": "string" },
-              "role": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "biome": {
                 "type": "array",
-                "items": { "type": "string" }
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "Tropical Rainforest",
+                    "Temperate Forest",
+                    "Desert",
+                    "Tundra",
+                    "Tiaga",
+                    "Grassland",
+                    "Savanna",
+                    "Freshwater",
+                    "Marine"
+                  ]
+                }
+              },
+              "region": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "North America",
+                    "South America",
+                    "Africa",
+                    "Asia",
+                    "Australia",
+                    "Antarctica",
+                    "Pacific Ocean",
+                    "Atlantic Ocean",
+                    "Arctic Ocean",
+                    "Indian Ocean",
+                    "Southern Oceans"
+                  ]
+                }
+              },
+              "geographicScope": {
+                "type": "string",
+                "enum": [
+                  "National",
+                  "International",
+                  "Global"
+                ]
               }
             },
-            "required": ["id", "name", "description", "role"],
-  	    "additionalProperties": false
+            "required": [
+              "id",
+              "name",
+              "description",
+              "biome",
+              "region",
+              "geographicScope"
+            ],
+            "additionalProperties": false
+          },
+          "Stakeholders": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "description",
+                "role"
+              ],
+              "additionalProperties": false
+            }
           }
-        }
-      },
-      "required": ["id", "name", "description", "domain", "Goal", "Technologies", "Impacts", "Scope"],
-      "additionalProperties": false
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "domain",
+          "Goal",
+          "Technologies",
+          "Impacts",
+          "Scope"
+        ],
+        "additionalProperties": false
+      }
     }
   },
-  "required": ["GrandChallenge"],
+  "required": [
+    "GrandChallenges"
+  ],
   "additionalProperties": false
 }
