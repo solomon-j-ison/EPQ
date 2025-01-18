@@ -1,0 +1,304 @@
+{
+    "GrandChallenges": [
+        {
+            "domain": "Energy",
+            "id": "gc001",
+            "name": "Develop sustainable fusion energy",
+            "description": "Achieve practical and economical nuclear fusion as a clean energy source."
+        },
+        {
+            "domain": "Energy",
+            "id": "gc002",
+            "name": "Enhance energy storage",
+            "description": "Create efficient, long-duration energy storage systems to support renewable energy."
+        },
+        {
+            "domain": "Energy",
+            "id": "gc003",
+            "name": "Improve solar energy conversion",
+            "description": "Increase the efficiency and affordability of photovoltaic cells."
+        },
+        {
+            "domain": "Energy",
+            "id": "gc004",
+            "name": "Develop carbon capture and storage (CCS)",
+            "description": "Implement scalable CCS technologies to reduce greenhouse gas emissions."
+        },
+        {
+            "domain": "Energy",
+            "id": "gc005",
+            "name": "Create a smart grid",
+            "description": "Modernize the electricity grid for better efficiency and reliability."
+        },
+        {
+            "domain": "Environment",
+            "id": "gc006",
+            "name": "Address climate change",
+            "description": "Develop strategies to mitigate and adapt to climate change impacts."
+        },
+        {
+            "domain": "Environment",
+            "id": "gc007",
+            "name": "Ensure clean water availability",
+            "description": "Innovate in water purification and desalination technologies."
+        },
+        {
+            "domain": "Environment",
+            "id": "gc008",
+            "name": "Restore and protect ecosystems",
+            "description": "Implement methods to restore degraded ecosystems and protect biodiversity."
+        },
+        {
+            "domain": "Environment",
+            "id": "gc009",
+            "name": "Reduce plastic pollution",
+            "description": "Develop biodegradable alternatives and improve recycling technologies."
+        },
+        {
+            "domain": "Environment",
+            "id": "gc010",
+            "name": "Combat air pollution",
+            "description": "Create technologies to reduce emissions from industrial and transportation sources."
+        },
+        {
+            "domain": "Health",
+            "id": "gc011",
+            "name": "Cure cancer",
+            "description": "Find universal or highly targeted cures for various types of cancer."
+        },
+        {
+            "domain": "Health",
+            "id": "gc012",
+            "name": "Address antibiotic resistance",
+            "description": "Develop new antibiotics and alternative treatments to combat resistant bacteria."
+        },
+        {
+            "domain": "Health",
+            "id": "gc013",
+            "name": "Prevent and treat neurodegenerative diseases",
+            "description": "Create effective therapies for Alzheimer's, Parkinson's, and other neurodegenerative disorders."
+        },
+        {
+            "domain": "Health",
+            "id": "gc014",
+            "name": "Improve mental health treatment",
+            "description": "Innovate in diagnosis and treatment of mental health disorders."
+        },
+        {
+            "domain": "Health",
+            "id": "gc015",
+            "name": "Develop personalized medicine",
+            "description": "Tailor medical treatments based on individual genetic profiles."
+        },
+        {
+            "domain": "Biotechnology and Genetics",
+            "id": "gc016",
+            "name": "Advance gene editing",
+            "description": "Improve CRISPR and other gene-editing technologies for safe and precise medical applications."
+        },
+        {
+            "domain": "Biotechnology and Genetics",
+            "id": "gc017",
+            "name": "Synthetic biology",
+            "description": "Engineer microorganisms for sustainable production of fuels, chemicals, and pharmaceuticals."
+        },
+        {
+            "domain": "Biotechnology and Genetics",
+            "id": "gc018",
+            "name": "Regenerate tissues and organs",
+            "description": "Develop techniques for growing organs and tissues for transplantation."
+        },
+        {
+            "domain": "Biotechnology and Genetics",
+            "id": "gc019",
+            "name": "Understand the human microbiome",
+            "description": "Explore how the microbiome influences health and disease."
+        },
+        {
+            "domain": "Biotechnology and Genetics",
+            "id": "gc020",
+            "name": "Combat genetic diseases",
+            "description": "Find cures for hereditary diseases through genetic therapy and intervention."
+        },
+        {
+            "domain": "Computing and Artificial Intelligence",
+            "id": "gc021",
+            "name": "Achieve general AI",
+            "description": "Develop artificial intelligence that can perform any intellectual task that a human can."
+        },
+        {
+            "domain": "Computing and Artificial Intelligence",
+            "id": "gc022",
+            "name": "Ensure AI ethics and safety",
+            "description": "Create frameworks to ensure ethical use and safety of AI technologies."
+        },
+        {
+            "domain": "Computing and Artificial Intelligence",
+            "id": "gc023",
+            "name": "Improve quantum computing",
+            "description": "Develop practical and scalable quantum computers."
+        },
+        {
+            "domain": "Computing and Artificial Intelligence",
+            "id": "gc024",
+            "name": "Cybersecurity",
+            "description": "Create unbreakable encryption and secure communication systems."
+        },
+        {
+            "domain": "Computing and Artificial Intelligence",
+            "id": "gc025",
+            "name": "Develop brain-computer interfaces",
+            "description": "Enhance direct communication between brains and computers for medical and non-medical applications."
+        },
+        {
+            "domain": "Space",
+            "id": "gc026",
+            "name": "Enable human Mars exploration",
+            "description": "Overcome the technical and physiological challenges of manned missions to Mars."
+        },
+        {
+            "domain": "Space",
+            "id": "gc027",
+            "name": "Search for extraterrestrial life",
+            "description": "Develop methods to detect and study life beyond Earth."
+        },
+        {
+            "domain": "Space",
+            "id": "gc028",
+            "name": "Develop space habitats",
+            "description": "Create sustainable living environments for long-term space habitation."
+        },
+        {
+            "domain": "Space",
+            "id": "gc029",
+            "name": "Protect Earth from asteroids",
+            "description": "Implement systems to detect and deflect potentially hazardous asteroids."
+        },
+        {
+            "domain": "Space",
+            "id": "gc030",
+            "name": "Improve space propulsion",
+            "description": "Innovate propulsion systems for faster and more efficient space travel."
+        },
+        {
+            "domain": "Materials Science",
+            "id": "gc031",
+            "name": "Develop advanced materials",
+            "description": "Create new materials with exceptional properties for various applications."
+        },
+        {
+            "domain": "Materials Science",
+            "id": "gc032",
+            "name": "Nano-engineering",
+            "description": "Manipulate materials at the nanoscale for enhanced performance and new functionalities."
+        },
+        {
+            "domain": "Materials Science",
+            "id": "gc033",
+            "name": "Self-healing materials",
+            "description": "Develop materials that can repair themselves after damage."
+        },
+        {
+            "domain": "Materials Science",
+            "id": "gc034",
+            "name": "Lightweight and strong materials",
+            "description": "Innovate materials that are both lightweight and strong for use in transportation and construction."
+        },
+        {
+            "domain": "Materials Science",
+            "id": "gc035",
+            "name": "Sustainable materials",
+            "description": "Create materials with minimal environmental impact and high recyclability."
+        },
+        {
+            "domain": "Infrastructure and Urban Development",
+            "id": "gc036",
+            "name": "Resilient infrastructure",
+            "description": "Design infrastructure that can withstand natural disasters and climate change."
+        },
+        {
+            "domain": "Infrastructure and Urban Development",
+            "id": "gc037",
+            "name": "Smart cities",
+            "description": "Develop cities that utilize technology for efficient management of resources and services."
+        },
+        {
+            "domain": "Infrastructure and Urban Development",
+            "id": "gc038",
+            "name": "Affordable housing",
+            "description": "Innovate in construction methods and materials to provide affordable housing solutions."
+        },
+        {
+            "domain": "Infrastructure and Urban Development",
+            "id": "gc039",
+            "name": "Efficient transportation systems",
+            "description": "Create sustainable and efficient public and private transportation systems."
+        },
+        {
+            "domain": "Infrastructure and Urban Development",
+            "id": "gc040",
+            "name": "Waste management",
+            "description": "Improve methods for waste reduction, recycling, and disposal."
+        },
+        {
+            "domain": "Education and Human Development",
+            "id": "gc041",
+            "name": "Global literacy and education",
+            "description": "Ensure access to quality education for all children worldwide."
+        },
+        {
+            "domain": "Education and Human Development",
+            "id": "gc042",
+            "name": "Lifelong learning",
+            "description": "Develop systems that support continuous education and skills development throughout life."
+        },
+        {
+            "domain": "Education and Human Development",
+            "id": "gc043",
+            "name": "AI in education",
+            "description": "Utilize AI to personalize and enhance learning experiences."
+        },
+        {
+            "domain": "Education and Human Development",
+            "id": "gc044",
+            "name": "Eradicate poverty",
+            "description": "Innovate economic and social solutions to lift people out of poverty globally."
+        },
+        {
+            "domain": "Education and Human Development",
+            "id": "gc045",
+            "name": "Global health equity",
+            "description": "Ensure access to healthcare and essential medicines for all populations."
+        },
+        {
+            "domain": "Economics and Society",
+            "id": "gc046",
+            "name": "Sustainable economic growth",
+            "description": "Create models for economic growth that do not compromise environmental sustainability."
+        },
+        {
+            "domain": "Economics and Society",
+            "id": "gc047",
+            "name": "Improve disaster response",
+            "description": "Develop better methods for predicting, responding to, and recovering from natural disasters."
+        },
+        {
+            "domain": "Economics and Society",
+            "id": "gc048",
+            "name": "Ethical governance of technology",
+            "description": "Establish policies and regulations to manage the ethical implications of emerging technologies."
+        },
+        {
+            "domain": "Economics and Society",
+            "id": "gc049",
+            "name": "Food security",
+            "description": "Innovate agricultural practices to ensure food security for the growing global population."
+        },
+        {
+            "domain": "Economics and Society",
+            "id": "gc050",
+            "name": "Global health systems",
+            "description": "Strengthen global health systems to better handle pandemics and health crises."
+        }
+    ]
+}
