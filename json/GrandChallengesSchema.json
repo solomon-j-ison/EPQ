@@ -68,13 +68,9 @@
                     "institution": {
                       "type": "array",
                       "items": { "type": "string" }
-                    },
-                    "role": {
-                      "type": "array",
-                      "items": { "type": "string" }
                     }
                   },
-                  "required": ["id", "name", "description", "researchStatus", "researchArea", "role"]
+                  "required": ["id", "name", "description", "researchStatus", "researchArea"]
                 }
               }
             },
