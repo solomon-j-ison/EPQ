@@ -24,8 +24,7 @@
             "description": "Investigate methods to improve the stability of perovskite cells under various conditions.",
             "researchStatus": "Basic",
             "researchArea": ["Materials Science"],
-            "institution": ["MIT"],
-            "role": ["Lead Research"]
+            "institution": ["MIT"]
           },
           {
             "id": "res002",
@@ -33,8 +32,7 @@
             "description": "Develop methods to recycle solar panels and reduce waste.",
             "researchStatus": "Applied",
             "researchArea": ["Environmental Science"],
-            "institution": ["Stanford University"],
-            "role": ["Collaborator"]
+            "institution": ["Stanford University"]
           }
         ]
       }
