@@ -31,7 +31,8 @@
             "description": { "type": "string" },
             "metric": { "type": "string" }
           },
-          "required": ["id", "name", "description", "metric"]
+          "required": ["id", "name", "description", "metric"],
+  	  "additionalProperties": false
         },
         "Technologies": {
           "type": "array",
@@ -70,11 +71,13 @@
                       "items": { "type": "string" }
                     }
                   },
-                  "required": ["id", "name", "description", "researchStatus", "researchArea"]
+                  "required": ["id", "name", "description", "researchStatus", "researchArea"],
+  		  "additionalProperties": false
                 }
               }
             },
-            "required": ["id", "name", "description", "technologyStatus", "Research"]
+            "required": ["id", "name", "description", "technologyStatus", "Research"],
+  	    "additionalProperties": false
           }
         },
         "Impacts": {
@@ -90,7 +93,8 @@
                 "enum": ["Human Impact", "Physical Impact"]
               }
             },
-            "required": ["id", "name", "description", "impactType"]
+            "required": ["id", "name", "description", "impactType"],
+            "additionalProperties": false
           }
         },
         "Scope": {
@@ -140,7 +144,8 @@
               "enum": ["National", "International", "Global"]
             }
           },
-          "required": ["id", "name", "description", "biome", "region", "geographicScope"]
+          "required": ["id", "name", "description", "biome", "region", "geographicScope"],
+  	  "additionalProperties": false
         },
         "Stakeholders": {
           "type": "array",
@@ -155,12 +160,15 @@
                 "items": { "type": "string" }
               }
             },
-            "required": ["id", "name", "description", "role"]
+            "required": ["id", "name", "description", "role"],
+  	    "additionalProperties": false
           }
         }
       },
-      "required": ["id", "name", "description", "domain", "Goal", "Technologies", "Impacts", "Scope"]
+      "required": ["id", "name", "description", "domain", "Goal", "Technologies", "Impacts", "Scope"],
+      "additionalProperties": false
     }
   },
-  "required": ["GrandChallenge"]
+  "required": ["GrandChallenge"],
+  "additionalProperties": false
 }
