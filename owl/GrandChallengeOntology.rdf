@@ -588,15 +588,6 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/Earth -->
-
-    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Earth">
-        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
-        <rdfs:label>Earth</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://sites.google.com/view/grandchallengesinstem/Economics_and_Society -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Economics_and_Society">
@@ -674,6 +665,7 @@
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Global">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
         <rdfs:label>Global</rdfs:label>
     </owl:NamedIndividual>
     
