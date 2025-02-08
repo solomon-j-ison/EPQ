@@ -197,7 +197,12 @@
                     "Marine",
                     "Urban",
                     "Rural",
-                    "Industrial"
+                    "Industrial",
+                    "Global",
+                    "Interplanetary",
+                    "Agricultural",
+                    "Forest",
+                    "Tropical Forest"
                   ]
                 }
               },
@@ -224,7 +229,8 @@
                     "Low Earth Orbit",
                     "Lunar Surface",
                     "Earth",
-                    "Amazon Basin"
+                    "Amazon Basin",
+                    "Coral Triangle"
                   ]
                 }
               },
