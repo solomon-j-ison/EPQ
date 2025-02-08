@@ -28,7 +28,8 @@
               "Materials Science",
               "Infrastructure and Urban Development",
               "Education and Human Development",
-              "Economics and Society"
+              "Economics and Society",
+              "Agriculture and Food"
             ]
           },
           "Goal": {
@@ -193,7 +194,10 @@
                     "Grassland",
                     "Savanna",
                     "Freshwater",
-                    "Marine"
+                    "Marine",
+                    "Urban",
+                    "Rural",
+                    "Industrial"
                   ]
                 }
               },
@@ -212,7 +216,15 @@
                     "Atlantic Ocean",
                     "Arctic Ocean",
                     "Indian Ocean",
-                    "Southern Oceans"
+                    "Southern Oceans",
+                    "Global",
+                    "Europe",
+                    "Southeast Asia",
+                    "Mars",
+                    "Low Earth Orbit",
+                    "Lunar Surface",
+                    "Earth",
+                    "Amazon Basin"
                   ]
                 }
               },
@@ -221,7 +233,8 @@
                 "enum": [
                   "National",
                   "International",
-                  "Global"
+                  "Global",
+                  "Interplanetary"
                 ]
               }
             },
