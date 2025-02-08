@@ -624,6 +624,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Europa -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Europa">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Europa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Europe -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Europe">
