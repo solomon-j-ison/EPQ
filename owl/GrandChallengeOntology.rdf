@@ -464,6 +464,24 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Agriculture_and_Food -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Agriculture_and_Food">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Domain"/>
+        <rdfs:label>Agriculture and Food</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Amazon_Basin -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Amazon_Basin">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Amazon Basin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Antarctica -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Antarctica">
@@ -554,6 +572,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Earth -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Earth">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Earth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Economics_and_Society -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Economics_and_Society">
@@ -590,6 +617,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Europe -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Europe">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Existing -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Existing">
@@ -612,6 +648,7 @@
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Global">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
         <rdfs:label>Global</rdfs:label>
     </owl:NamedIndividual>
     
@@ -653,6 +690,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Industrial -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Industrial">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Industrial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Infrastructure_and_Urban_Development">
@@ -671,11 +717,47 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Interplanetary -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Interplanetary">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
+        <rdfs:label>Interplanetary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Low_Earth_Orbit -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Low_Earth_Orbit">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Low Earth Orbit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Lunar_Surface -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Lunar_Surface">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Lunar Surface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Marine -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Marine">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdfs:label>Marine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Mars -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Mars">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Mars</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -734,6 +816,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Rural -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Rural">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Rural</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Savanna -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Savanna">
@@ -748,6 +839,15 @@
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/South_America">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
         <rdfs:label>South America</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Southeast_Asia -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Southeast_Asia">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Southeast Asia</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -802,6 +902,15 @@
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tundra">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdfs:label>Tundra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Urban -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Urban">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Urban</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
