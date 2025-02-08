@@ -143,6 +143,16 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnology -->
+
+    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnology">
+        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
+        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
+        <rdfs:label>hasTechnology</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/hasTechnologyStatus">
@@ -163,32 +173,12 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology -->
-
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresNewTechnology">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
-        <rdfs:label>requiresNewTechnology</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://sites.google.com/view/grandchallengesinstem/requiresResearch -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresResearch">
         <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
         <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
         <rdfs:label>requiresResearch</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology -->
-
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/usesExistingTechnology">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Technology"/>
-        <rdfs:label>usesExistingTechnology</rdfs:label>
     </owl:ObjectProperty>
     
 
