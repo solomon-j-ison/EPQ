@@ -378,8 +378,6 @@
 
     <owl:Class rdf:about="https://sites.google.com/view/grandchallengesinstem/Region">
         <rdfs:subClassOf rdf:resource="https://sites.google.com/view/grandchallengesinstem/Concept"/>
-        <rdfs:label>Region</rdfs:label>
-        <definition>The region(s) impacted by a grand challenge, e.g. Asia, Indian Ocean</definition>
     </owl:Class>
     
 
@@ -460,6 +458,15 @@
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Africa">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
         <rdfs:label>Africa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Agricultural -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Agricultural">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Agricultural</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -563,6 +570,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Coral_Triangle -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Coral_Triangle">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
+        <rdfs:label>Coral Triangle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Desert -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Desert">
@@ -635,6 +651,15 @@
     
 
 
+    <!-- https://sites.google.com/view/grandchallengesinstem/Forest -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Forest">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Forest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sites.google.com/view/grandchallengesinstem/Freshwater -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Freshwater">
@@ -647,6 +672,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Global -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Global">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Region"/>
         <rdfs:label>Global</rdfs:label>
@@ -720,6 +746,7 @@
     <!-- https://sites.google.com/view/grandchallengesinstem/Interplanetary -->
 
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Interplanetary">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/GeographicScope"/>
         <rdfs:label>Interplanetary</rdfs:label>
     </owl:NamedIndividual>
@@ -884,6 +911,15 @@
     <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tiaga">
         <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
         <rdfs:label>Tiaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sites.google.com/view/grandchallengesinstem/Tropical_Forest -->
+
+    <owl:NamedIndividual rdf:about="https://sites.google.com/view/grandchallengesinstem/Tropical_Forest">
+        <rdf:type rdf:resource="https://sites.google.com/view/grandchallengesinstem/Biome"/>
+        <rdfs:label>Tropical Forest</rdfs:label>
     </owl:NamedIndividual>
     
 
