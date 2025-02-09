@@ -163,16 +163,6 @@
     
 
 
-    <!-- https://sites.google.com/view/grandchallengesinstem/involves -->
-
-    <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/involves">
-        <rdfs:domain rdf:resource="https://sites.google.com/view/grandchallengesinstem/GrandChallenge"/>
-        <rdfs:range rdf:resource="https://sites.google.com/view/grandchallengesinstem/Research"/>
-        <rdfs:label>involves</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://sites.google.com/view/grandchallengesinstem/requiresResearch -->
 
     <owl:ObjectProperty rdf:about="https://sites.google.com/view/grandchallengesinstem/requiresResearch">
